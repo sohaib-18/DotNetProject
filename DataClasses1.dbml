@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Gym" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-4E5CVJ2\MSSQLSERVER02;Initial Catalog=Gym;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GymConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Attendance" Member="Attendances">
+    <Type Name="Attendance">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MemberId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="StatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="AttendanceStatus_Attendance" Member="AttendanceStatus" ThisKey="StatusId" OtherKey="Id" Type="AttendanceStatus" IsForeignKey="true" />
+      <Association Name="Member_Attendance" Member="Member" ThisKey="MemberId" OtherKey="Id" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AttendanceStatus" Member="AttendanceStatus">
+    <Type Name="AttendanceStatus">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StatusName" Type="System.String" DbType="NVarChar(1500) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="AttendanceStatus_Attendance" Member="Attendances" ThisKey="Id" OtherKey="StatusId" Type="Attendance" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CustomFields" Member="CustomFields">
+    <Type Name="CustomField">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FieldName" Type="System.String" DbType="NVarChar(1500) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="CustomField_MemberDetail" Member="MemberDetails" ThisKey="Id" OtherKey="FieldId" Type="MemberDetail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Fees" Member="Fees">
+    <Type Name="Fee">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MemberId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MemberPackageId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TotalFees" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PaidFees" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RemainingFees" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StatusId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="FeeStatus_Fee" Member="FeeStatus" ThisKey="StatusId" OtherKey="Id" Type="FeeStatus" IsForeignKey="true" />
+      <Association Name="MemberPackage_Fee" Member="MemberPackage" ThisKey="MemberPackageId" OtherKey="Id" Type="MemberPackage" IsForeignKey="true" />
+      <Association Name="Member_Fee" Member="Member" ThisKey="MemberId" OtherKey="Id" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FeeStatus" Member="FeeStatus">
+    <Type Name="FeeStatus">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StatusName" Type="System.String" DbType="NVarChar(1500) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="FeeStatus_Fee" Member="Fees" ThisKey="Id" OtherKey="StatusId" Type="Fee" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MemberDetails" Member="MemberDetails">
+    <Type Name="MemberDetail">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MemberId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FieldId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Association Name="CustomField_MemberDetail" Member="CustomField" ThisKey="FieldId" OtherKey="Id" Type="CustomField" IsForeignKey="true" />
+      <Association Name="Member_MemberDetail" Member="Member" ThisKey="MemberId" OtherKey="Id" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MemberPackages" Member="MemberPackages">
+    <Type Name="MemberPackage">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MemberId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PackageId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StartingDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="EndingDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="MemberPackage_Fee" Member="Fees" ThisKey="Id" OtherKey="MemberPackageId" Type="Fee" />
+      <Association Name="Member_MemberPackage" Member="Member" ThisKey="MemberId" OtherKey="Id" Type="Member" IsForeignKey="true" />
+      <Association Name="Package_MemberPackage" Member="Package" ThisKey="PackageId" OtherKey="Id" Type="Package" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Members" Member="Members">
+    <Type Name="Member">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(1500) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="RegisterationFees" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AdmissionFees" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RegisteredOn" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ProfilePic" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Association Name="Member_Attendance" Member="Attendances" ThisKey="Id" OtherKey="MemberId" Type="Attendance" />
+      <Association Name="Member_Fee" Member="Fees" ThisKey="Id" OtherKey="MemberId" Type="Fee" />
+      <Association Name="Member_MemberDetail" Member="MemberDetails" ThisKey="Id" OtherKey="MemberId" Type="MemberDetail" />
+      <Association Name="Member_MemberPackage" Member="MemberPackages" ThisKey="Id" OtherKey="MemberId" Type="MemberPackage" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Packages" Member="Packages">
+    <Type Name="Package">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PackageName" Type="System.String" DbType="NVarChar(1500) NOT NULL" CanBeNull="false" />
+      <Column Name="PackageDetails" Type="System.String" DbType="NVarChar(1500) NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DiscountedPrice" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="D1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="D2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PackageTypeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="PackageImage" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Association Name="Package_MemberPackage" Member="MemberPackages" ThisKey="Id" OtherKey="PackageId" Type="MemberPackage" />
+      <Association Name="PackageType_Package" Member="PackageType" ThisKey="PackageTypeId" OtherKey="Id" Type="PackageType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PackageType" Member="PackageTypes">
+    <Type Name="PackageType">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(1500) NOT NULL" CanBeNull="false" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="PackageType_Package" Member="Packages" ThisKey="Id" OtherKey="PackageTypeId" Type="Package" />
+    </Type>
+  </Table>
+</Database>

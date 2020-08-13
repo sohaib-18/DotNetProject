@@ -1,0 +1,2982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Portal.about" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>about.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AccessDenied" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>AccessDenied.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddBenefits" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAAAAAAICAAgAAAAAAAIABAgAAAAAAIAAAE=</HashCode>
+      <FileName>AddBenefits.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddBookList" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAACAAAAACAEgAAAAAAAAIABBABAAAAAIEAAA=</HashCode>
+      <FileName>AddBookList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddBranchHolidays" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACBAAAAAABAgAABQAAAAABAACAQAAAIBAAA=</HashCode>
+      <FileName>AddBranchHolidays.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddCity" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAIAAAAAgAAAAAgAgABAAAAQAAAICEAA=</HashCode>
+      <FileName>AddCity.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddClass" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACAAAAAAAAAgAAAAAAAAABAAAAQAABIBABA=</HashCode>
+      <FileName>AddClass.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddClassAttendence" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQUAAACAACAAAAACAEAAAEoAAAAEAAAACgQAAAIBAEA=</HashCode>
+      <FileName>AddClassAttandence.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddClassChallan" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAACAACABAAACIEAAAABAAAAAAABAEAAAACIBAIA=</HashCode>
+      <FileName>AddClassChallan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddClassFine" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAACAEAgACCAIACAABFAAAAAAAoEAAA=</HashCode>
+      <FileName>AddClassFine.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddClassHolyday" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACBQAEACAEAgAAAQAAAAABAACAQAAAIBAEA=</HashCode>
+      <FileName>AddClassHolyday.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddClassVideo" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAACCAAAAACAEAAAAQAABAAEBBABBQAAA4EAAA=</HashCode>
+      <FileName>AddClassVideo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddCountry" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAACAAgABAAAAAAABAAAAQAgAIAAAA=</HashCode>
+      <FileName>AddCountry.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddDepartment" Collapsed="true">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAACIAAAAAAAAgAAEAAAIAABAAAAQAAAIBAAA=</HashCode>
+      <FileName>AddDepartment.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddDesignation" Collapsed="true">
+    <Position X="35" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAACAAAIAAAAAgAAAAAAAAQBAAAAQgQAIBAAA=</HashCode>
+      <FileName>AddDesignation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddDriverDetail" Collapsed="true">
+    <Position X="36.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAiQBACAEAAAAAAAAAAABBACAAAEAIBAAA=</HashCode>
+      <FileName>AddDriverDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddDriverDocuments" Collapsed="true">
+    <Position X="38.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAKAAAAEAACAAAAAAAAAAAAAAAAABAAAAAAAAIAEAA=</HashCode>
+      <FileName>AddDriverDocuments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddEmployeeAttendanceSummery" Collapsed="true">
+    <Position X="40.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEBAAAGCAAQAgAAAEAAAAACQAiBBAAAAAAIIBgAk=</HashCode>
+      <FileName>AddEmployeeAttendanceSummery.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddEmployeeLoan" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEACAEAAAAAgAAEEABAAAACBBACAAAAAIBAAA=</HashCode>
+      <FileName>AddEmployeeLoan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddExaminationDocumentDetail" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAAAQAAAAAAAQIEAAAAAAAIBBAAABAAAIIAAAA=</HashCode>
+      <FileName>AddExaminationDocumentDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddExaminationDocuments" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAECAgQACCAEBEggAQABAAABBACAAAAAIDAAA=</HashCode>
+      <FileName>AddExaminationDocuments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddExpense" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAABAAABAAAIAQSgAAQACAIAIAaALBAEAAAAEIIIJA=</HashCode>
+      <FileName>AddExpense.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddFeedBack" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAQAQIAAAIAIAAAAAAkAAAQAQAAAAAAAAAAAAICABI=</HashCode>
+      <FileName>AddFeedBack.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeeMasterStructure" Collapsed="true">
+    <Position X="19.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAACAAAAACAEAgACCAIACAABBAAAAAAAoEAAA=</HashCode>
+      <FileName>AddFeeMasterStructure.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddGuardian" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAEAgAABgAAAAAAAAQBAEAAAAAAICAAA=</HashCode>
+      <FileName>AddGuardian.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddGuardianEdit" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAgAABgAAAAAAAAQJAEEAABAAIAAAA=</HashCode>
+      <FileName>AddGuardianEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddMachineLog" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACgAAAAAEAAEAAAAAQAACBBACAAAAIIhAAA=</HashCode>
+      <FileName>AddMachineLog.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddNewDriver" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEEACAACABCAAAAAAAAAAAAAABAgAAIhAAIAAIQ=</HashCode>
+      <FileName>AddNewDriver.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddNewLeave" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQIAAAAAAAAAAAAAAAAgACAAAAAAABAAAAAQAAIAAAI=</HashCode>
+      <FileName>AddNewLeave.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddPermission" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAYQAgAAAAAAAAAAAAACAAAAEAAAgBAAgAAIBAAQ=</HashCode>
+      <FileName>AddPermission.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddPermissionGroups" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAgAAAAgAAAAAAAAABAAAAAAAgIBAAQ=</HashCode>
+      <FileName>AddPermissionGroups.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddPlanner" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAACAAAAACAEAAAAAAAAAIABBABAEAAAIBAAA=</HashCode>
+      <FileName>AddPlanner.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddRoute" Collapsed="true">
+    <Position X="35" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAACAAABAAAgAAABAAAAABAAAAQAAAIAIAA=</HashCode>
+      <FileName>AddRoute.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddStudentDiscount" Collapsed="true">
+    <Position X="36.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAQAAAAACAgAQACAEAgACAAAAAAABAAGAQAACIBAEA=</HashCode>
+      <FileName>AddStudentDiscount.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddStudentDiscountEdit" Collapsed="true">
+    <Position X="38.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAACAgQQACEAAgACCAAAAAABBAGAAAAAIBAAA=</HashCode>
+      <FileName>AddStudentDiscountEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddStudentFine" Collapsed="true">
+    <Position X="40.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAgQAACAEIgACCAIACAABBACAAAAAoEAAA=</HashCode>
+      <FileName>AddStudentFine.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddSyllabus" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAACAAAAACAEAAAAAAAAAIABBABAAAAAIBAIA=</HashCode>
+      <FileName>AddSyllabus.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AddWorkSheets" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAACAAAAACAEAAAAAAAAAIABBABAAAAQIBAAA=</HashCode>
+      <FileName>AddWorkSheets.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdjustStudentChallan" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAACAgQAACAFIkACKAIACAABBAGAAAAAoEAAA=</HashCode>
+      <FileName>AdjustStudentChallan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Admin_Edit_Student" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AxoQACIYBBwAAFAACEBAAAAGAgAIINBkkAgiAgIEQAQ=</HashCode>
+      <FileName>Admin_Edit_Student.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Admin_Employee_Edit" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAgABACARLgFAGCAgAAAADgAQkAJBikSohABIEwAQ=</HashCode>
+      <FileName>Admin_Employee_Edit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminExpense" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAABAAABCAAIAASgAAUACgIAICaCLBCEEAAAMoJINA=</HashCode>
+      <FileName>AdminAddExpensesOfEmployees.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminEmployeeDocuments" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAADAIAAAAAAAAAAAAAAgICBBABAAAAQIBAAA=</HashCode>
+      <FileName>AdminEmployeeDocuments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminEmployeeSMS" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAACAAACBAAAAAAAAAAgAAAAAAAABAAAQgAIIBAEA=</HashCode>
+      <FileName>AdminEmployeeSMS.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminExpenses" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAABAAABAAAIAASgAAUAAgIAICaCLBAGEQAAIoIIJA=</HashCode>
+      <FileName>AdminExpenses.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminNewEmployee" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQYAAABACAAJglACCAgAAAABgAQkAJgikioBABIEwAQ=</HashCode>
+      <FileName>AdminNewEmployee.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminNewStudent" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARIAACI4BBwAAFAACEAAAAAAAgAQINAk0AgCAgIEQAQ=</HashCode>
+      <FileName>AdminNewStudent.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminSalaryHead" Collapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAABACAAAAAAAgAAAAQAAAABAAAAAKAQIAAAU=</HashCode>
+      <FileName>AdminSalaryHead.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminSalaryHeadEdit" Collapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAABACAAAEAAAgAAAAAAAAABAAEABIAQIAAAQ=</HashCode>
+      <FileName>AdminSalaryHeadEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminSalaryHeadGroup" Collapsed="true">
+    <Position X="33.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACAAAAAAAEAgACAAAAgACBBAAgAgAoIAAAA=</HashCode>
+      <FileName>AdminSalaryHeadGroup.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminSalaryHeadGroupEdit" Collapsed="true">
+    <Position X="35" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAAAAAAAAAAgEAgACAAAAAACFAAEgAiAAIAAAA=</HashCode>
+      <FileName>AdminSalaryHeadGroupEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminSchoolRules" Collapsed="true">
+    <Position X="36.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAADAAAAAAAAAAAAAAAAgYABAIBAAAAQIBAAA=</HashCode>
+      <FileName>AdminSchoolRules.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminStudentAttendance" Collapsed="true">
+    <Position X="38.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gSAAgACAACBgQAiCAEACABAAAAAAQCBACBAAQCIBAAE=</HashCode>
+      <FileName>AdminStudentAttendance.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminStudentDocuments" Collapsed="true">
+    <Position X="40.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAADAoQAACAAAAAAAAAAgIABBADAAAAQIBAAA=</HashCode>
+      <FileName>AdminStudentDocuments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminStudentSMS" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQEAACCAACBAAAACAAAAAgAAAAAAAABASAQgAAIEAAA=</HashCode>
+      <FileName>AdminStudentSMS.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminTeacherAttendance" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IYgYwDFAAnAiCAAUCIi0MlhAQQJAhBFAiSQEAKpFgAI=</HashCode>
+      <FileName>AdminTeacherAttendance.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminTeacherAttendanceAjustment" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASZIDEFAkBAAAUQACQCBABgBAIABwEAkKQQohAIQASA=</HashCode>
+      <FileName>AdminTeacherAttendanceAjustment.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminTeacherAttendanceToday" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IYgQwABAADACCAAAAAA0MlhAAAAAhABAiTQAAAIBAAA=</HashCode>
+      <FileName>AdminTeacherAttendanceToday.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AllPermissions" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAQAAAIAAAA=</HashCode>
+      <FileName>AllPermissions.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AssignPermissions" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAIAAAQAAAAACAAAAAkAAgIIAAgQhAIAAAAAAIAAAg=</HashCode>
+      <FileName>AssignPermissions.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.BankInformation" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAACAAAAAABAAABAAAAAQBAiAAQAAAIAABQ=</HashCode>
+      <FileName>BankInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.BankInformationEdit" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAAAABiAABAAAAAABAiEAAAAQIAABQ=</HashCode>
+      <FileName>BankInformationEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.BankPayment" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BankPayment.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.BankReceive" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BankReceive.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.BenefitEdit" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAIAAAAAACAQAAAAAAAAABAAEAAAAAIAAAE=</HashCode>
+      <FileName>BenefitEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.BenefitList" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEECAAAQAAAAAgAEIAAAAICBBgEAAAAAIBABE=</HashCode>
+      <FileName>BenefitList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.BookList" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAKAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BookList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.BookListForAdmin" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAAACAAACACAEAAAAAAAAAAAABgAAAAAAIBAAI=</HashCode>
+      <FileName>BookListForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Calender" Collapsed="true">
+    <Position X="35" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Calender.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Campus" Collapsed="true">
+    <Position X="36.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAAIAgAAAAAAAAABACAAQAAAIDAAA=</HashCode>
+      <FileName>Campus.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.CampusEdit" Collapsed="true">
+    <Position X="38.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAAAAAAAAIAgAAAAAAAAABACEAEAAAIAAAA=</HashCode>
+      <FileName>CampusEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.CashPayment" Collapsed="true">
+    <Position X="40.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>CashPayment.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.CashReceive" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>CashReceive.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ChartOfAccount" Collapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ChartOfAccount.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ChartTestPage" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ChartTestPage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.CityEdit" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAABgAAAAIAAAAAgAAAAAgAAABAAEAAAAAICEAA=</HashCode>
+      <FileName>CityEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ClassAttendence" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gSAAgACAACBAAEiKAEACABAAAACAQAAAABAAQCIBAEM=</HashCode>
+      <FileName>ClassAttendence.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ClassChallanDetail" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAEEAAACAIgBAAAAAAAAAICAAE=</HashCode>
+      <FileName>ClassChallanDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ClassChallanList" Collapsed="true">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACAAAAACAEAkAAEAARAAAABgAAAAAAIBAAI=</HashCode>
+      <FileName>ClassChallanList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ClassTeacherList" Collapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAQAAAAACAAAAAAAUAgAAAAAACgABBAAAQAAJIEAAA=</HashCode>
+      <FileName>ClassTeacherList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ClassVideoEdit" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAICAAAAAGAAAAAAQAAAAAEBAAFBAAAI4EAAA=</HashCode>
+      <FileName>ClassVideoEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ClassVideoForAdmin" Collapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAACCIAAAACAEAEAAAAARAAAABgAAAAAAIDAAI=</HashCode>
+      <FileName>ClassVideoForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ClassVideoForStudent" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAACAAAAAAAAAABAAAAAAAAAAAAAAAAAAICAAI=</HashCode>
+      <FileName>ClassVideoForStudent.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.CollectStudentDues" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAgQEICAEAAAAAAAAACAAJlCAABQCIkIAo=</HashCode>
+      <FileName>CollectStudentDues.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Complain" Collapsed="true">
+    <Position X="29.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAQAAIAAAIAAAAAAAAkAAAwAQAAAAAACAQAAAICABI=</HashCode>
+      <FileName>Complain.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ComplainDetail" Collapsed="true">
+    <Position X="31.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAAAAAAAAAAEAAAAAAAAhAAAAAAAAAICAAA=</HashCode>
+      <FileName>ComplainDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ComplainDetailForAdmin" Collapsed="true">
+    <Position X="33.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAACEAABAAAAACiGAABAAACCwAAhAABAAAsCAAA=</HashCode>
+      <FileName>ComplainDetailForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ComplainListForAdmin" Collapsed="true">
+    <Position X="35" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAQAAAAAAAAAEAAAAAFAAAAAQAACAABCAAACAICAAA=</HashCode>
+      <FileName>ComplainListForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Conversation" Collapsed="true">
+    <Position X="40.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAsAAAIgQAACAEAgAAAQAAAAAAAACAAAAAICABI=</HashCode>
+      <FileName>Conversation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ConversationHistory" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQBAIDAAA=</HashCode>
+      <FileName>ConversationHistory.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ConversationList" Collapsed="true">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAgAgAAAAAAAAICAAA=</HashCode>
+      <FileName>ConversationList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.CountryEdit" Collapsed="true">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAACAAgACAAAAAQABAAEAAAgAIAAAA=</HashCode>
+      <FileName>CountryEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.DeductionType" Collapsed="true">
+    <Position X="17.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQCAAAAAAAAAAAAAAgAAAAAABAABAAAAQAAIIAAAA=</HashCode>
+      <FileName>DeductionType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.DeductionTypeEdit" Collapsed="true">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAAAAAAAEAAAgAAAAAAAAABgAEAAAAAIAAAI=</HashCode>
+      <FileName>DeductionTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Default" Collapsed="true">
+    <Position X="21" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.DepartmentEdit" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAAAAAgAAAAgAIQARAAEAAAAAIEAAA=</HashCode>
+      <FileName>DepartmentEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.DesignationEdit" Collapsed="true">
+    <Position X="28" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAIAAAAAgCAAAAAAAwBAAEAAAAAYEAAA=</HashCode>
+      <FileName>DesignationEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.DocumentDetailForAdmin" Collapsed="true">
+    <Position X="29.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DocumentDetailForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Documents" Collapsed="true">
+    <Position X="31.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAQAIAABBAIAAAQEAAEQAAAAAAAAEBgAAAAAAIAAhA=</HashCode>
+      <FileName>Documents.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.DocumentTypes" Collapsed="true">
+    <Position X="33.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAwAAAAAAAAAAAAAAAgAEAAQAAAABAAAAQAAAIAAAA=</HashCode>
+      <FileName>DocumentTypes.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.DocumentTypesEdit" Collapsed="true">
+    <Position X="35" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgIAAAAAAAAAAABAAgAAAAQAAAABAAEAAAAAIAAAA=</HashCode>
+      <FileName>DocumentTypesEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.DownlaodAttendenceSheets" Collapsed="true">
+    <Position X="36.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DownlaodAttendenceSheets.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.DriverList" Collapsed="true">
+    <Position X="38.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAEAIAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DriverList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditAdvancement" Collapsed="true">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAgAAEABAAAABAAAAwABAAEiIBAAIEAAA=</HashCode>
+      <FileName>EditAdvancement.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditBranchHolyday" Collapsed="true">
+    <Position X="7" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAAiBAAAAAABAgAAAQAAAAABEAGAAAAAIAAAA=</HashCode>
+      <FileName>EditBranchHolyday.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditClass" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAwACAAAAAAAAAgAAAAAAAAABAAEAAAAAJAABA=</HashCode>
+      <FileName>EditClass.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditClassHolyday" Collapsed="true">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACBCBEACAAAgAAAQAAAAABBAGAAAAAIBAAA=</HashCode>
+      <FileName>EditClassHolyday.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditClassTeacherList" Collapsed="true">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAAAQAgAAAAEACgABhAEAAAAAIBAAA=</HashCode>
+      <FileName>EditClassTeacherList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditDriver" Collapsed="true">
+    <Position X="14" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEEAOAACABCIAAIEAAAEAAQABBAgGAoBCAIIAIw=</HashCode>
+      <FileName>EditDriver.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditEmployeeLoanList" Collapsed="true">
+    <Position X="15.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEACAEAAAAAgAQEGAAAAAACBAAGAAAAAIBAAA=</HashCode>
+      <FileName>EditEmployeeLoanList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditFactorySetup" Collapsed="true">
+    <Position X="17.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAIAAAAAAAAAAAAAgAAAAAAAAABIAEAAABAIAAAA=</HashCode>
+      <FileName>EditFactorySetup.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditQuality" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAQgAAAAAAAAAJAAUIAAAAIAAAA=</HashCode>
+      <FileName>EditQuality.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EditWorkingDaysofBranch" Collapsed="true">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQCgACAIAAAAAAAAAEAAIQAAABAAEAAAIAIJCAA=</HashCode>
+      <FileName>EditWorkingDaysofBranch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeAttendance" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQgIQADAAkACCAAQAAikMEhAQQJAhAEAiSQAADpEAAI=</HashCode>
+      <FileName>EmployeeAttendance.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeAttendanceAjustment" Collapsed="true">
+    <Position X="28" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAiAFAAAAAAQQAAAAAABgAAIAAwAAECQQgBIIABSA=</HashCode>
+      <FileName>EmployeeAttendanceAjustment.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeAttendanceSummaryEdit" Collapsed="true">
+    <Position X="33.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAkBAAIGSAAQAgAAAFAAAAACQAhBEKEAAAAAICgAk=</HashCode>
+      <FileName>EmployeeAttendanceSummaryEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeAttendanceSummaryList" Collapsed="true">
+    <Position X="35" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACAAAEAAEAAkAAAAAQAAAAAgAAAIQCIBAAI=</HashCode>
+      <FileName>EmployeeAttendanceSummaryList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeBenefitList" Collapsed="true">
+    <Position X="36.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEACAAAAAAAAAhAEAAAAAICABgAAAAAAIDAAI=</HashCode>
+      <FileName>EmployeeBenefitList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeDirectory" Collapsed="true">
+    <Position X="40.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACCBAAAAAAAAAAAAQAAAAAABACAgACIMEAAA=</HashCode>
+      <FileName>EmployeeDirectory.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeDocuments" Collapsed="true">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAACAAAAAAAAIAAAAAAAAACABgAAAAAIIBAAI=</HashCode>
+      <FileName>EmployeeDocuments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeEdit" Collapsed="true">
+    <Position X="7" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQIAAABACAABAFACCAgAAAABoAQkAJAikAoBABIAwAQ=</HashCode>
+      <FileName>EmployeeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeExpenses" Collapsed="true">
+    <Position X="8.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAABAAABAAAIAASgAAUAAAIAIAaALBAGAQAAAIIIJA=</HashCode>
+      <FileName>EmployeeExpenses.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeLeaveHistory" Collapsed="true">
+    <Position X="14" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAEIAAAAAAAEAAAAICAAAIAAQQKYBAEA=</HashCode>
+      <FileName>EmployeeLeaveHistory.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeLoanList" Collapsed="true">
+    <Position X="17.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAAAAAAAgACAAAAAAAgABAAAAIBAAI=</HashCode>
+      <FileName>EmployeeLoanList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeNotice" Collapsed="true">
+    <Position X="19.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAQAAAKAABI=</HashCode>
+      <FileName>EmployeeNotice.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Employeeoff" Collapsed="true">
+    <Position X="21" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Employeeoff.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeePaySlip" Collapsed="true">
+    <Position X="22.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oWAFQlIAAfAJUAAAAqmAAEJAIA4AykLBmCmBCIIBgGk=</HashCode>
+      <FileName>EmployeePaySlip.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeShifts" Collapsed="true">
+    <Position X="26.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAQAECgQCAKAAAIGAAkAEAAIQEgARIQEAQAIAIJCAA=</HashCode>
+      <FileName>EmployeeShifts.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeShiftsEdit" Collapsed="true">
+    <Position X="28" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAECgACAIAAAIGAAkAEAAIgMgFRIQEAQAIAIMCAA=</HashCode>
+      <FileName>EmployeeShiftsEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeVoting" Collapsed="true">
+    <Position X="29.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAIAAgAAAAAEAAIAAgAAEAAAAACBAAAAEAAKICAEI=</HashCode>
+      <FileName>EmployeeVoting.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeVotingDetail" Collapsed="true">
+    <Position X="31.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAECAgAAAAAEAAAAEAAAAACAQoAAAAQKIBAMA=</HashCode>
+      <FileName>EmployeeVotingDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.EmployeeVotingEdit" Collapsed="true">
+    <Position X="33.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAAAAAAAAAAAAgAAAAAEAACBAAEAEAAIMCAQA=</HashCode>
+      <FileName>EmployeeVotingEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ExamDocumentListForAdmin" Collapsed="true">
+    <Position X="36.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAAACAgQACCAEJEAAAQARAAAABgCAAAAAIDAEI=</HashCode>
+      <FileName>ExamDocumentListForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ExamType" Collapsed="true">
+    <Position X="38.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAACAAAAAAAAAAgAAAAAAACABAAAAQAgAIAAAA=</HashCode>
+      <FileName>ExamType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ExamTypeEdit" Collapsed="true">
+    <Position X="40.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACAAAAAAAAAAgAAAAABACAJAAEAAAAAIAAAA=</HashCode>
+      <FileName>ExamTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ExpenseReport" Collapsed="true">
+    <Position X="7" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAIQAAAAAAAAQAAAQAAAAAQAgAAAAQCIAIAI=</HashCode>
+      <FileName>ExpenseReport.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FactorySetup" Collapsed="true">
+    <Position X="12.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAIAAAAAAAAAAAAAgAAAAAAAAABIAACQABAIAAAA=</HashCode>
+      <FileName>FactorySetup.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeedBackDetail" Collapsed="true">
+    <Position X="14" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAAAAAAAAAAEAAAAAAAAgAAAAAAAAAICAAA=</HashCode>
+      <FileName>FeedBackDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeedBackDetailForAdmin" Collapsed="true">
+    <Position X="15.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAAAAAAAAAgEAAAAAAAIgAAgAAAAAAICAAA=</HashCode>
+      <FileName>FeedBackDetailForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeedBackListForAdmin" Collapsed="true">
+    <Position X="17.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAQAAAAAAAEAAAAAFAAAAAQAACAABAAAACAICAAA=</HashCode>
+      <FileName>FeedBackListForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeeStructureDetail" Collapsed="true">
+    <Position X="21" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAEAAAAAAAAAEAAAACAEABQQAAAAAAAIAAAg=</HashCode>
+      <FileName>FeeStructureDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeeStructureEdit" Collapsed="true">
+    <Position X="22.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAAAAACAAAAACAEAkACCAIASABBAAEAAAAEoEAAA=</HashCode>
+      <FileName>FeeStructureEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeeStructureList" Collapsed="true">
+    <Position X="24.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACACAAACAEAkAAAAAQAAAABkBAAAAAIBAAI=</HashCode>
+      <FileName>FeeStructureList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeeType" Collapsed="true">
+    <Position X="26.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAAAAgAAAAAAAAADAAAAQAAAoAAAA=</HashCode>
+      <FileName>FeeType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeeTypeEdit" Collapsed="true">
+    <Position X="28" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAEAAAAAAAAgAAAAAAAAADAgEAAAAAIAAAA=</HashCode>
+      <FileName>FeeTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeeVoucherReport" Collapsed="true">
+    <Position X="29.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QUAQBACAACAgoGASAEIAABwAgQABAABECAQGQSIDAAI=</HashCode>
+      <FileName>FeeVoucherReport.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FeeVoucherReportVer" Collapsed="true">
+    <Position X="31.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QUAQBACAACAgoGASAEIAABwAgQABAABECAQGQSIDAAI=</HashCode>
+      <FileName>FeeVoucherReportVer.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ForgetPasswordRequire" Collapsed="true">
+    <Position X="33.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ISAAACABAAAAAAAAAAAAAAAIIAAAgBAAwAAAAAIEAEA=</HashCode>
+      <FileName>ForgetPasswordRequirements.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ForgetPasswordRequiremntsSearch" Collapsed="true">
+    <Position X="35" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQACAAAAAAAAAAAQABAAAAAAAAAAAgAAQAAAIBAAA=</HashCode>
+      <FileName>ForgetPasswordRequirementsSearch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.FullMenu" Collapsed="true">
+    <Position X="36.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAgABAAAIAAAA=</HashCode>
+      <FileName>FullMenu.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.GeneratePaySlip" Collapsed="true">
+    <Position X="38.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAACAABAAAAAAgAAAAAAgEAAgAAIAAAQ=</HashCode>
+      <FileName>GeneratePaySlip.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Global" Collapsed="true">
+    <Position X="7" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAEAAAAAAAAAAECIBQAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.HomeWorkType" Collapsed="true">
+    <Position X="26.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAEAAAAgAAAAgAAAAAAAAABAgAAQAAAIAAAA=</HashCode>
+      <FileName>HomeWorkType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.HomeWorkTypeEdit" Collapsed="true">
+    <Position X="28" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAAAgAAAAgAAAAAAAAAJAgEAAAAAIAAAA=</HashCode>
+      <FileName>HomeWorkTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.InventoryManagement" Collapsed="true">
+    <Position X="31.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>InventoryManagement.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.AdminManageCirculars" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASIAACEAACAAAAQAAAAAAEBAAAgYgFFgEAQAgALEABY=</HashCode>
+      <FileName>IssueNoticeToEmployee.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.JournalVouchers" Collapsed="true">
+    <Position X="10.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>JournalVouchers.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.LeaveDetail" Collapsed="true">
+    <Position X="17.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAEAAAAAAAAAAEAAAAAAAABUIAAAAAAAICAgA=</HashCode>
+      <FileName>LeaveDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.LeaveDetailForAdmin" Collapsed="true">
+    <Position X="19.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACACAAEAAAABQAAACAAAAABACARUIAAAAAAAoCAgA=</HashCode>
+      <FileName>LeaveDetailForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.LeaveList" Collapsed="true">
+    <Position X="21" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgAAAAAAAAAAAFAAAAAQACAAAAABAAAAYCAAA=</HashCode>
+      <FileName>LeaveList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.LeaveListForAdmin" Collapsed="true">
+    <Position X="22.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACAAAAAAAAAEAAAAAQACAABACBAAAAYGAAA=</HashCode>
+      <FileName>LeaveListForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.LeaveType" Collapsed="true">
+    <Position X="28" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAQAAgAAAAAAAAAAAAgAAAAAAAAABAAAAQAAAICAAQ=</HashCode>
+      <FileName>LeaveType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.LeaveTypeEdit" Collapsed="true">
+    <Position X="31.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAgAAAAAAAAAAAAgABAAAAAAABAAEAAAAAoAAAQ=</HashCode>
+      <FileName>LeaveTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Login" Collapsed="true">
+    <Position X="38.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAAABAAAgAAAAAAAAoIAAAgIQAAACAQAIAAEA=</HashCode>
+      <FileName>Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.loginTest" Collapsed="true">
+    <Position X="40.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAAABAAAgAAAAAAAAoIAAAgIQAAACAQAIAAEA=</HashCode>
+      <FileName>loginTest.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Logout" Collapsed="true">
+    <Position X="5.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Logout.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ManageDocuments" Collapsed="true">
+    <Position X="7" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAADAgQAACAEAEAAAAAAAACEBgCAwAAIIDAFI=</HashCode>
+      <FileName>ManageDocuments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ManageStudent" Collapsed="true">
+    <Position X="8.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACIQAAACAAABAAAAAAAAABAAAAQAAAIDAEA=</HashCode>
+      <FileName>ManageStudent.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ManageTimeTable" Collapsed="true">
+    <Position X="10.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JSAAACAAACAAAAAGAEAAAGFgAAgYgBFgQAQCgAIFAQI=</HashCode>
+      <FileName>ManageTimeTable.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ManageUserPermissions" Collapsed="true">
+    <Position X="12.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAIAABAAAAgAAAiAAAAgABAAUAAAABIAAAA=</HashCode>
+      <FileName>ManageUserPermissions.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MarkVoucher" Collapsed="true">
+    <Position X="14" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAAQACAAABAAgAAAAABIAAIAAAAgQAAIAAAE=</HashCode>
+      <FileName>MarkVoucher.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MasterReset" Collapsed="true">
+    <Position X="15.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAIAAAA=</HashCode>
+      <FileName>MasterReset.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Menus" Collapsed="true">
+    <Position X="17.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Menus.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyBookList" Collapsed="true">
+    <Position X="24.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAIDAAA=</HashCode>
+      <FileName>MyBookList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyDocumentList" Collapsed="true">
+    <Position X="26.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAAAAAICAAA=</HashCode>
+      <FileName>MyDocumentList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyDriverList" Collapsed="true">
+    <Position X="28" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEEAEAACABCAAAAAAAAAAAAAAAAgAAIBAAICAIQ=</HashCode>
+      <FileName>MyDriverList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyDues" Collapsed="true">
+    <Position X="29.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAABACgAAAggHAQAAIBABUAgQQDAQAlQAAGQSIiAAI=</HashCode>
+      <FileName>MyDues.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyExamDocumentDetail" Collapsed="true">
+    <Position X="31.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>MyExamDocumentDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyExamDocumentList" Collapsed="true">
+    <Position X="33.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAACAAAJEAAAQAQAAAAAgAAAAgAICAEI=</HashCode>
+      <FileName>MyExamDocumentList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyFee" Collapsed="true">
+    <Position X="35" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAAAAAAAAAACAAAFAAAAAAICAAA=</HashCode>
+      <FileName>MyFee.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyPaySlipDetail" Collapsed="true">
+    <Position X="36.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAEEAAACAIgBAAAAAAAAAICAAE=</HashCode>
+      <FileName>MyPaySlipDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyPlannerList" Collapsed="true">
+    <Position X="38.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAIDAAA=</HashCode>
+      <FileName>MyPlannerList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MySchoolRuleList" Collapsed="true">
+    <Position X="40.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAEAAICAAA=</HashCode>
+      <FileName>MySchoolRuleList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MySyllabusList" Collapsed="true">
+    <Position X="5.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAIDAAA=</HashCode>
+      <FileName>MySyllabusList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyTimeTable" Collapsed="true">
+    <Position X="7" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAgAAAAAAAAAAAFAAAAAAAAAAAAAAEAAAICAAA=</HashCode>
+      <FileName>MyTimeTable.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyTracking" Collapsed="true">
+    <Position X="8.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAIAAAA=</HashCode>
+      <FileName>MyTracking.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MyWorkSheetList" Collapsed="true">
+    <Position X="10.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAIDAAA=</HashCode>
+      <FileName>MyWorkSheetList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PaymentType" Collapsed="true">
+    <Position X="14" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAQAAAAAAAAAgAAAAAAAAABAAAAQAAAIQBAA=</HashCode>
+      <FileName>PaymentType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PaymentTypeEdit" Collapsed="true">
+    <Position X="15.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAQCAAAAAAAAgAAAAAAAAABAAEAAAAAIQAAA=</HashCode>
+      <FileName>PaymentTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PayrollMonthWise" Collapsed="true">
+    <Position X="17.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AaAAAAAAECAAAEAAAAAAAgAAAEgABAAEAAAAACIAAAI=</HashCode>
+      <FileName>PayrollMonthWise.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PaySlipDetail" Collapsed="true">
+    <Position X="19.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wRA5QEIAQgIIYCCRIIGUEDoObIIxzBkMAYXQCEICAGk=</HashCode>
+      <FileName>PaySlipDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PaySlipList" Collapsed="true">
+    <Position X="21" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABBAAAAAAAAAEAAAAAQACAAAEAAAAAAICAAA=</HashCode>
+      <FileName>PaySlipList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PaySlipSummary" Collapsed="true">
+    <Position X="22.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wQApQEIgRCIIQGAQAAA0EAoAKYADiBEsQIGASCYBAOI=</HashCode>
+      <FileName>PaySlipSummary.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PermissionEdit" Collapsed="true">
+    <Position X="26.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAYQAAAAAAAAAAAAEAACAAAAEACAgFAAgAAIAAAQ=</HashCode>
+      <FileName>PermissionEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PermissionGroupsEdit" Collapsed="true">
+    <Position X="28" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAAAAAAgAAAAgAAAAAAAAAhAAEAAAAAIAAAQ=</HashCode>
+      <FileName>PermissionGroupsEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Planner" Collapsed="true">
+    <Position X="29.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAKAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Planner.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PlannerListForAdmin" Collapsed="true">
+    <Position X="31.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAAACAAAAACAEAAAAAAAAAAAgBgAAAAAAIBAAI=</HashCode>
+      <FileName>PlannerListForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PortalBackgroundImage" Collapsed="true">
+    <Position X="33.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAEAAAAAAAAAIABAAAAAAAAIAAAA=</HashCode>
+      <FileName>PortalBackgroundImage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PortalWikiData" Collapsed="true">
+    <Position X="36.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GQAQAACAAAAAAAAAAAAgAAAAAAAAAhAAAAQAIAIAAAA=</HashCode>
+      <FileName>PortalWikiData.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.POS" Collapsed="true">
+    <Position X="38.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>POS.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PrintBarCode" Collapsed="true">
+    <Position X="40.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQEAACCAAABAAAgCAkAAAggAAAAACABISAQBAAIAAAA=</HashCode>
+      <FileName>PrintBarCode.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Quality" Collapsed="true">
+    <Position X="7" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAQAAgBAAAAAAAAJAAAAQAAAIAAAA=</HashCode>
+      <FileName>Quality.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ReportGenerator" Collapsed="true">
+    <Position X="15.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQSBAAAAAAQAAABABgAhQAAQKABAwACQAAAAAAIQAAA=</HashCode>
+      <FileName>ReportGenerator.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ResultType" Collapsed="true">
+    <Position X="22.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAQBgAAAAAAAAgBAAAAQAAAICAAQ=</HashCode>
+      <FileName>ResultType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ResultTypeEdit" Collapsed="true">
+    <Position X="24.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAQAgAAAAAAAAABAAEgAAAAIAAQQ=</HashCode>
+      <FileName>ResultTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.RouteEdit" Collapsed="true">
+    <Position X="26.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAAAAAAgAAAAAAAAABAAEABAIEIAAAA=</HashCode>
+      <FileName>RouteEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SalaryHalfDayDecision" Collapsed="true">
+    <Position X="28" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAMCAAAEAAAAAAAAAABAAICABAIAQAAIIBAAE=</HashCode>
+      <FileName>SalaryHalfDayDecision.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SalaryHalfDayDecisionEdit" Collapsed="true">
+    <Position X="29.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAECAAAEAAAAAAAAgAAAAAiAAAMAAAgIIBEAA=</HashCode>
+      <FileName>SalaryHalfDayDecisionEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SalaryLateDayDecisionEdit" Collapsed="true">
+    <Position X="31.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAECAAAEAAAAAAAAAAAAAAiAAAMAAACIIBEAA=</HashCode>
+      <FileName>SalaryLateDayDecisionEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SalaryLateDecision" Collapsed="true">
+    <Position X="33.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAMCAAAEAAAAAAAAAABAAICABAIAQAAIIBAAE=</HashCode>
+      <FileName>SalaryLateDecision.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SchoolRuleListEdit" Collapsed="true">
+    <Position X="35" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAADAAAAAAAAIAAAAAAAgQABAIFAAAAQYBAAA=</HashCode>
+      <FileName>SchoolRuleListEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SchoolRulesList" Collapsed="true">
+    <Position X="36.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAAAAEAAIBAAA=</HashCode>
+      <FileName>SchoolRulesList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SchoolRuleType" Collapsed="true">
+    <Position X="38.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAAAAgAAAAAAAAIBAAAAQAACoAAAA=</HashCode>
+      <FileName>SchoolRuleType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SchoolRuleTypeEdit" Collapsed="true">
+    <Position X="40.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAAAIAAAAAAAgAAAAAAAAIBAAEAAAAAoAAAA=</HashCode>
+      <FileName>SchoolRuleTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SearchEmployeeDocuments" Collapsed="true">
+    <Position X="5.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAgIAACAAAAAAAAIAAAAAAAAACABAAAAAIAIBAAA=</HashCode>
+      <FileName>SearchEmployeeDocuments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SearchHomeWork" Collapsed="true">
+    <Position X="7" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAACAAABAAAAAAAAAgAECAAAAAAgAgAAQAAAIFAAI=</HashCode>
+      <FileName>SearchHomeWork.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SearchStudentByGR" Collapsed="true">
+    <Position X="8.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAAAAAAAAABAAAAAAAAARAAAAQAAAIAAAA=</HashCode>
+      <FileName>SearchStudentByGR.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SearchStudentChallan" Collapsed="true">
+    <Position X="10.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAICAgQEACAEAmAAEAAQACAABkSAAAQCIkAAI=</HashCode>
+      <FileName>SearchStudentChallan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SearchStudentChallanByYear" Collapsed="true">
+    <Position X="12.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAgQAACAEAiAAEAAAACAABkSAAAQCIkAAI=</HashCode>
+      <FileName>SearchStudentChallanByYear.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SearchStudentDocuments" Collapsed="true">
+    <Position X="14" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAgIAACAgQAACAAIAAAAAAAAAAABACAAAIAIBAAA=</HashCode>
+      <FileName>SearchStudentDocuments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SetGroupPermission" Collapsed="true">
+    <Position X="17.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACRAAAAAAAQASACAAAACAAAMAAAhBAAAAAIAAAA=</HashCode>
+      <FileName>SetGroupPermission.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SMSHistory" Collapsed="true">
+    <Position X="7" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAQAAAIAAAA=</HashCode>
+      <FileName>SMSHistory.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SMSHistoryDetail" Collapsed="true">
+    <Position X="8.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAIAQAAAIAAAA=</HashCode>
+      <FileName>SMSHistoryDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StatusReportClassWiseViewer" Collapsed="true">
+    <Position X="15.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAABAIBAAA=</HashCode>
+      <FileName>StatusReportClassWiseViewer.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StatusReportSummaryViewer" Collapsed="true">
+    <Position X="19.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAABAIBAAA=</HashCode>
+      <FileName>StatusReportSummaryViewer.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StatusReportViewer" Collapsed="true">
+    <Position X="21" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAABAIBAAA=</HashCode>
+      <FileName>StatusReportViewer.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StoreReport" Collapsed="true">
+    <Position X="33.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgBAIAAAA=</HashCode>
+      <FileName>StoreReport.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudendCards" Collapsed="true">
+    <Position X="35" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQEAACCAACAABAACAEAAAAgAAAABAABISAQBAAIBAAA=</HashCode>
+      <FileName>StudendCards.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentAttendance" Collapsed="true">
+    <Position X="36.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gSAAgACAAABAAAiAAAACABAAAAAAQCAAABAAQCIAAAE=</HashCode>
+      <FileName>StudentAttendance.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentCircular" Collapsed="true">
+    <Position X="38.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAQAAAKCABI=</HashCode>
+      <FileName>StudentCircular.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentDiscountSearch" Collapsed="true">
+    <Position X="7" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAQAAAACAAAAAAAAAgAAAAAAAAAAAgAAQAAAIBAAA=</HashCode>
+      <FileName>StudentDiscountSearch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentDocuments" Collapsed="true">
+    <Position X="8.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAACAgQAACAEIAAAAAAAAAAABgCAAAAAIDAAI=</HashCode>
+      <FileName>StudentDocuments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentEdit" Collapsed="true">
+    <Position X="10.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARoEAAMYABgAAFAASIAAAAAAAAAIAJAkkAgBAgKAQAQ=</HashCode>
+      <FileName>StudentEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentFeeSummary" Collapsed="true">
+    <Position X="12.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQgEACAAAAAAAgAAAAgAAABAQAAgQAAAAAIBAAI=</HashCode>
+      <FileName>StudentFeeSummary.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentHealthDocument" Collapsed="true">
+    <Position X="14" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAEAAAEAAAAAAAAAAAAAAABAAABAAAIAAAA=</HashCode>
+      <FileName>StudentHealthDocument.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentHomework" Collapsed="true">
+    <Position X="15.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAABAAAAAAAAAQAACAAAAAAEAgAAQAAAJAABI=</HashCode>
+      <FileName>StudentHomework.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentManageCirculars" Collapsed="true">
+    <Position X="17.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASIAACAAACAAAAQCAAAAAEBAAAgYgFFgEARAgAIFABY=</HashCode>
+      <FileName>StudentManageCirculars.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentManageCircularsEdit" Collapsed="true">
+    <Position X="19.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAICAAAAACEAAEAAAAAAQACBBAEAAgAAYEAAA=</HashCode>
+      <FileName>StudentManageCircularsEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentPaySlip" Collapsed="true">
+    <Position X="21" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAABABACAAgAAAAAIAAAAAAChBgNCAEAsAIAAAE=</HashCode>
+      <FileName>StudentPaySlip.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentPaySlipList" Collapsed="true">
+    <Position X="22.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAwBAAARCKgQCACAEAUEAgACAADABFlCIAAAAIDAAI=</HashCode>
+      <FileName>StudentPaySlipList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentPerformanceGraphically" Collapsed="true">
+    <Position X="24.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUARABAAECAgAAACAEAAAAAAABAQAAAACQAAAAIBIEA=</HashCode>
+      <FileName>StudentPerformanceGraphically.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentPerformanceRating" Collapsed="true">
+    <Position X="26.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAQAAAAAGIgQEACAEAAAAgAAAAQpAAAqAAAAAIBAEA=</HashCode>
+      <FileName>StudentPerformanceRating.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentPerformanceRatingEdit" Collapsed="true">
+    <Position X="28" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAQAAAwAEAgAEgCAEAAAAAAAAAAAAAAuAIAAAIBAAA=</HashCode>
+      <FileName>StudentPerformanceRatingEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentPerformanceView" Collapsed="true">
+    <Position X="29.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AcCQQAAAACAgCAACAEAABAgAAAABACgACAIBACIBAMA=</HashCode>
+      <FileName>StudentPerformanceView.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Performance" Collapsed="true">
+    <Position X="24.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>StudentPerformanceView.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentProfile" Collapsed="true">
+    <Position X="31.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QRAUAwAqEQCAABAAAADAAAAgAAAIJAAgUAQIABICAAA=</HashCode>
+      <FileName>StudentProfile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentSubjectPerformances" Collapsed="true">
+    <Position X="33.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAQAAAAACAgQEACAEAAAgAAAAASAAAAKAAAAAIBAEA=</HashCode>
+      <FileName>StudentSubjectPerformances.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentSubjectRatingView" Collapsed="true">
+    <Position X="35" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AcAQAAAAACAgEgACAEAAAAAAAAABAAAACAAAACIBAMA=</HashCode>
+      <FileName>StudentSubjectRatingView.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.StudentTracking" Collapsed="true">
+    <Position X="36.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAcAAAAAAAAAAAAAAAAABAAEAAAAAIAAAA=</HashCode>
+      <FileName>StudentTracking.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Subject" Collapsed="true">
+    <Position X="38.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAQAAAAAAAAAAAAAACgAgAAAAAAABAAAAQAAAICAAA=</HashCode>
+      <FileName>Subject.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SubjectEdit" Collapsed="true">
+    <Position X="40.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAEAAAAgAAAACgAAAAAAAAABAAEAAAAAIAAAA=</HashCode>
+      <FileName>SubjectEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.SyllabusForAdmin" Collapsed="true">
+    <Position X="10.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAAACAAAAACAEAAAAAAAAAAAABgAAAAAAIDIAI=</HashCode>
+      <FileName>SyllabusForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.TeacherHomework2" Collapsed="true">
+    <Position X="14" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAADAAAAACAAAgABCAAAgYAhBgEAQAAQIBAAQ=</HashCode>
+      <FileName>TeacherHomework2.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.TeacherProfile" Collapsed="true">
+    <Position X="15.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SQQAAAAQIAAAIJAAACAAACgwAA4IBABgUAQAAAIgBAA=</HashCode>
+      <FileName>TeacherProfile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.TeacherSubjectEdit" Collapsed="true">
+    <Position X="17.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAKAAAABCQEAggAAAAAAAABBAEAAAAAIBAAA=</HashCode>
+      <FileName>TeacherSubjectEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.TeacherSubjectList" Collapsed="true">
+    <Position X="19.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAEAAKAAAAAAQEAgAgAAAACAABFAAAQAAIIEAAA=</HashCode>
+      <FileName>TeacherSubjectList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.TeacherTracking" Collapsed="true">
+    <Position X="21" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAEAAAAAIAAAA=</HashCode>
+      <FileName>TeacherTracking.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.TimeTableType" Collapsed="true">
+    <Position X="31.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAAAAgEAEAAAAAABAAABQAAAIAAAA=</HashCode>
+      <FileName>TimeTableType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.TimeTableTypeEdit" Collapsed="true">
+    <Position X="33.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAQAAAAIAAgEAAAAAAAABAAEBAAAAIAAAA=</HashCode>
+      <FileName>TimeTableTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UploadStudentAttendance" Collapsed="true">
+    <Position X="5.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AagAAABAACAAAAACAAAAAAAAAAAAAABAEAAAAAoEAAA=</HashCode>
+      <FileName>UploadStudentAttendance.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UploadTeacherAttendance" Collapsed="true">
+    <Position X="7" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AagEAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAA=</HashCode>
+      <FileName>UploadTeacherAttendance.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UserType" Collapsed="true">
+    <Position X="8.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAAAAgAAAAAAAAABAAQgQCAAIAAAA=</HashCode>
+      <FileName>UserType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UserTypeEdit" Collapsed="true">
+    <Position X="10.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAgAAAEACAAABAAEgACAAIAAAA=</HashCode>
+      <FileName>UserTypeEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.VideoPlayer" Collapsed="true">
+    <Position X="12.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAEAAAAIIAEAA=</HashCode>
+      <FileName>VideoPlayer.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.VideoType" Collapsed="true">
+    <Position X="14" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAQAAAAgAAAAAAQAEBAAAAQAAAIAAAA=</HashCode>
+      <FileName>VideoType.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ViewBranchHolyday" Collapsed="true">
+    <Position X="15.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAACAACBAAAAAAAAAAAAQAAAAAAAgAAQAAAIBAAA=</HashCode>
+      <FileName>ViewBranchHolyday.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ViewClassChallan" Collapsed="true">
+    <Position X="17.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAQBACAACAggGASAEIgAB0AgQADCABkQAAGASJmBAI=</HashCode>
+      <FileName>ViewClassChallan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ViewClassTeacher" Collapsed="true">
+    <Position X="19.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAACIAAAAAAAAAAAAAAAAAAAAgAAQAABIDAAI=</HashCode>
+      <FileName>ViewClassTeacher.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ViewEmployeeHeads" Collapsed="true">
+    <Position X="21" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAACAACAAAAAAgAAAAAAgACABkAAAAAIIBAAM=</HashCode>
+      <FileName>ViewEmployeeHeads.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ViewPaySlip" Collapsed="true">
+    <Position X="22.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wQA5QEIgRCIIQGAQAAA0EAoAKYADiBEsAIGAyCYBgOI=</HashCode>
+      <FileName>ViewPaySlip.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ViewPortalWiki" Collapsed="true">
+    <Position X="24.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAQAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAQAAAIAAAI=</HashCode>
+      <FileName>ViewPortalWiki.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ViewStudentChallan" Collapsed="true">
+    <Position X="26.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAQBAGEACAgwGASAEIiAB0AgQAhCABkSAQGQSImAAI=</HashCode>
+      <FileName>ViewStudentChallan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.WorkingDaysofBranch" Collapsed="true">
+    <Position X="33.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAQAACgACAIAAAAAAAAAEAAIQAAABAACAQAAAIJCAA=</HashCode>
+      <FileName>WorkingDaysofBranch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.WorkSheetListForAdmin" Collapsed="true">
+    <Position X="35" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQAAAAACAAACACAEAAAAAAAAAAAABgAAAAAAIBAAI=</HashCode>
+      <FileName>WorkSheetListForAdmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.api.AttendanceUploder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>api\AttendanceUploder.ashx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Resources.ResourceFile" Collapsed="true">
+    <Position X="21" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAsAIAAAgACAAAABEAAQAQAAAQEAAhBAACQkBMA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.ApplyLeave" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAKEAQAIAAA0AACgAEDUCAQpAkgKQAQRASQAAAIAAgA=</HashCode>
+      <FileName>attendance\ApplyLeave.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.AttendancePolicies" Collapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQQAAAACBACCAAAAgAUIAAIgQgQAAAAAAQBIASgI=</HashCode>
+      <FileName>attendance\AttendancePolicies.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.AttendanceRegister" Collapsed="true">
+    <Position X="38.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>attendance\AttendanceRegister.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.EmpLeaveRequests" Collapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIAAEBgAAACAAEBAAAAAAAAAAAAAIiAACAIAAAA=</HashCode>
+      <FileName>attendance\EmpLeaveRequests.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.Global" Collapsed="true">
+    <Position X="5.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAEAAAAAAAAAAECIBAAAAAAAAAA=</HashCode>
+      <FileName>attendance\Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.HolidayListing" Collapsed="true">
+    <Position X="17.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBEAACEAAAAGCAAAAAAAAAAAAAAAAAAAAAAQIBAAA=</HashCode>
+      <FileName>attendance\HolidayListing.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.HolidaySetup" Collapsed="true">
+    <Position X="21" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIMCAChAAABQECGCAAAAEMEAUKAAQBYERYAAQEIBQAA=</HashCode>
+      <FileName>attendance\HolidaySetup.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.Home" Collapsed="true">
+    <Position X="24.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAkAAgAgAUICACCAkECgAEBAEQwQDAABoDRAAAqAAkA=</HashCode>
+      <FileName>attendance\Home.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.LeaveRequests" Collapsed="true">
+    <Position X="24.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAwAAAECAAMAAAAAACBAYSAgxMAAACAKAAwI=</HashCode>
+      <FileName>attendance\LeaveRequests.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.LeaveTypes" Collapsed="true">
+    <Position X="35" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAhAAAIBAAAAiIACACAAAAAAAAAgQwAAAAAAYAEAA=</HashCode>
+      <FileName>attendance\LeaveTypes.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.LeaveWorkflow" Collapsed="true">
+    <Position X="36.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAEAgQACCAAEAAAAIAAIAAAAAAJAAAQAIAQgA=</HashCode>
+      <FileName>attendance\LeaveWorkflow.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.ShiftBreak" Collapsed="true">
+    <Position X="22.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAahAAggiBGiyAwgCAEAAEcBAEgCfBIJAQEKAQkA=</HashCode>
+      <FileName>attendance\ShiftBreak.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.ShiftBreakListing" Collapsed="true">
+    <Position X="28" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAQEAAAAGAAAAAAAAAAAAAAAAAAIAAAAQIBAAE=</HashCode>
+      <FileName>attendance\ShiftBreakListing.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.ShiftDetail" Collapsed="true">
+    <Position X="31.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIARYpAIAggBHqyBggCAEMAEJAAEwCNRAJAQEIgSmE=</HashCode>
+      <FileName>attendance\ShiftDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.Shifts" Collapsed="true">
+    <Position X="40.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAhAko4gIkGGqABiEICEDCUFAAAEYdYALiABYgAiE=</HashCode>
+      <FileName>attendance\Shifts.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.TimeAdjustment" Collapsed="true">
+    <Position X="22.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQgoBwAAADLQCAiAAAQAAISQcAgMBgCAQOoKQAA=</HashCode>
+      <FileName>attendance\TimeAdjustment.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.TimeAdjustmentRequests" Collapsed="true">
+    <Position X="29.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAAABhAQAAAAAAkEAAAABAAQAQDAgBqBQAAAoAAkA=</HashCode>
+      <FileName>attendance\TimeAdjustmentRequests.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.AtteendanceParser" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAgAAAAAAAACAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>attendance\UploadExcelData.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Attendance.UploadExcelData" Collapsed="true">
+    <Position X="40.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoAAAAIACAAABAAAAAAAAAAAAAAACAAAIAAAA=</HashCode>
+      <FileName>attendance\UploadExcelData.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Backbone.SessionHelper" Collapsed="true">
+    <Position X="15.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attendance\Backbone\SessionHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.L2S.Utilities.ConnectionStrings" Collapsed="true">
+    <Position X="36.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>attendance\Common\ConnectionStrings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Common.Utilities.Constants" Collapsed="true">
+    <Position X="38.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attendance\Common\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Common.Utilities.Encryption" Collapsed="true">
+    <Position X="35" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAFAAAAIAAAAAQAAAAAQAAAAEACQAAAAAAAIAAAAA=</HashCode>
+      <FileName>attendance\Common\Encryption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Common.Utilities.ExceptionHelper" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>attendance\Common\ExceptionHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.Common.Utilities.TransferUtil" Collapsed="true">
+    <Position X="35" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attendance\Common\TransferUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DateTimeExtensions" Collapsed="true">
+    <Position X="15.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAgAAAQQAAAAAAAAAAAAAAgQAEAAAAAAAAAAAQA=</HashCode>
+      <FileName>attendance\Common\DateTimeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIExtensions" Collapsed="true">
+    <Position X="36.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>attendance\Common\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Extensions" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAgAACAAAAAAAAABAAAgIA=</HashCode>
+      <FileName>attendance\Common\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Helper" Collapsed="true">
+    <Position X="12.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>attendance\Common\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.AttendanceDao" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAACAAAAQAAAAAAAAAACAAAAAAAAAAEAAAEAABAgA=</HashCode>
+      <FileName>attendance\DAL\Classes\AttendanceDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.AttendanceExtensions" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAACAAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\AttendanceExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.AttendancePolicyDao" Collapsed="true">
+    <Position X="35" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAALAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\AttendancePolicyDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.HolidaysDao" Collapsed="true">
+    <Position X="19.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMAAAAAAAAAAABAAAQAAAAECAAAAAAAAACABAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\HolidaysDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.LeaveAdjustmentDao" Collapsed="true">
+    <Position X="14" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAEEAAAAAAAAACAEFAAAAAIAAAAAAAAQgIAAIA=</HashCode>
+      <FileName>attendance\DAL\Classes\LeaveAdjustmentDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.LeavesDao" Collapsed="true">
+    <Position X="26.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAEEAAAABAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\LeavesDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.ShiftBreakDao" Collapsed="true">
+    <Position X="24.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQIAAAAIAAAAAAAAAAAAAAAEAAIAAAAEAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\ShiftBreakDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.ShiftDao" Collapsed="true">
+    <Position X="29.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAACAAAAAAAAAAAAAEQAAAAAgIAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\ShiftDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.ShiftDetailDao" Collapsed="true">
+    <Position X="35" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAACAAAAAAAAAAAAAAAEAAAAAAACAYAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\ShiftDetailDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.Attendance.TimeAdjustmentDao" Collapsed="true">
+    <Position X="26.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgIAEAAgAAAAAAAAAAAABAAEAAAAAgAABAAABAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\TimeAdjustmentDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.HR.EmployeeDao" Collapsed="true">
+    <Position X="38.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\EmployeeDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Classes.RegionDao" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Classes\RegionDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.AttendancePolicyInfo" Collapsed="true">
+    <Position X="36.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCEAAIAAAAAAAAAECAEAAAAAACAAAAIAAAACAAAAE=</HashCode>
+      <FileName>attendance\DAL\Models\AttendancePolicyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.AddBulkAttendanceResult" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAACAEA=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeAttendenceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.UploadedAttendance" Collapsed="true">
+    <Position X="38.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeAttendenceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.EmployeeAttendanceLogInfo" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAQQAAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeAttendenceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.AttendanceSummaryInfo" Collapsed="true">
+    <Position X="40.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACABAAAAAEAAoAAAFAAAAIAAAAAAQQAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeAttendenceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.AttendanceInfo" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUBKAQDAEAACSACgYAgABBAAgAQAQAABCQASAKECAAA=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeAttendenceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.EmployeeAttendanceInfo" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUBKAAGAAAAAQAAAIIAAABAAgAAAQAAACAACAKICAAA=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeAttendenceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.LeaveTypeInfo" Collapsed="true">
+    <Position X="33.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAIIAAAAAAAAgACAAAAA=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeLeaveInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.EmployeeLeaveInfo" Collapsed="true">
+    <Position X="15.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACABAAAAIAAMCgAABAAAAIAAAAAAAQCAAACIAA=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeLeaveInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.HolidaysInfo" Collapsed="true">
+    <Position X="22.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGEAAIgAgAAAAAAAAAAAAAAAACAAAAIAEABCABAAE=</HashCode>
+      <FileName>attendance\DAL\Models\HolidaysInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.LeaveAdjustmentInfo" Collapsed="true">
+    <Position X="15.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKEAGAAAAAAAoAIIIAQBgAAAAAANAAQAAAAAAGAAE=</HashCode>
+      <FileName>attendance\DAL\Models\LeaveAdjustmentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.ShiftBreakInfo" Collapsed="true">
+    <Position X="26.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAIIAAgAAAAAAAAAAAAIgAiAAAAIAAAAAAAAAE=</HashCode>
+      <FileName>attendance\DAL\Models\ShiftBreakInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.ShiftDetailInfo" Collapsed="true">
+    <Position X="36.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAIIAAgAAIAQAAAAAQACgADAAAAIAAAAAAAAAU=</HashCode>
+      <FileName>attendance\DAL\Models\ShiftDetailInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.ShiftInfo" Collapsed="true">
+    <Position X="38.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAogAAIAQAAgAAQACAIBAAIAAAAQAQAAAAA=</HashCode>
+      <FileName>attendance\DAL\Models\ShiftInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.Attendance.TimeAdjustmentInfo" Collapsed="true">
+    <Position X="28" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKEAEIAAAAAgJAAAAAAAgACAACAEAAKAAAAIACAAE=</HashCode>
+      <FileName>attendance\DAL\Models\TimeAdjustmentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.HR.EmployeeInfo" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiGHAApQgABMGJFIAQEIAQGwAUAmACIlCCEYJQAAk=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.DAL.Model.CorrMan.RegionInfo" Collapsed="true">
+    <Position X="10.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAhggAAAEAAAAAAAAAAAAAAEBgAAAAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Models\RegionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.L2S.AttendanceDataContext" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKkAitAJBJByCgAAkBMQAECkCMARACBgQiAgiAIABo=</HashCode>
+      <FileName>attendance\L2S\AttendanceDataContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEdge.L2S.Holiday" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgImMBDJgEAgAECAQEEAAEBZjCICSIBEIAkCBSAVQgE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.Attendance_Region" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NEDiAIBFjAlgASgBYAEAAgABjCBACgAEBgABACoVAEg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.EmployeeAttendance" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>geMjAAIBSDIEQAsCbAkxAABBrKQKQEAAGIAKAKIXaEo=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.OffDay" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAiAAABIAAAAAgASEEACAABjiAAAAAAAAAAAAAUAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.AttendancePolicy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJmMAjJAAJgEACAQEGAEAABnCECSIFmKAgAASEUQgU=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.EmployeeLeave" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIQmAAoBhRABCIJBeBEAABABjCAAAChAAAAAAAIXghA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.LeaveType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAmIgABAgAACAAAQgEAIAQRjqsASAAAgAIgCCCUAIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.Attendance_Employee" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAiAsgxgAEACAkAShmSAQABrKAMAAAEiBYAAAAUAGg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.Shift" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQtmoAyBgMBgkAMAwEUhIgcBnHoFVIkEAMASkVhUAAw=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.ShiftBreak" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAIiMCBJIAEhAAiASEEACAABriEiSABEIAwAASAUQiE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.ShiftDetail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAtisARJIEAgAAqASEEACAcBjigDSAFAIEgSETgUQg0=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.TimeAdjustment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAJisGdJAEAgQgLAaAEAAIwBjTACSEBBIAwCESgfQwk=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.L2S.LeaveAdjustment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DIAmEEFhACEACA4BaBMgEBgzjSMhCtABUAhkAQAfQwk=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PublicEdge.Appointment.MasterPages.Model" Collapsed="true">
+    <Position X="22.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAACAAAACIAAAAAAAAABAAAMAAAA=</HashCode>
+      <FileName>attendance\MasterPages\Model.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Handlers.AttendanceMarker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\AttendanceMarker.ashx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Portal.UserControls.Shared.Header" Collapsed="true">
+    <Position X="8.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAABAAAAAAAAAIAAAAgAAAAAAAAAMAAgA=</HashCode>
+      <FileName>Header.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UserControls.Shared.HeaderFinalControl" Collapsed="true">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAABAAAAAAAAAIAAAAgAAAAAAAAAMAAgA=</HashCode>
+      <FileName>UserControls\Shared\HeaderFinalControl.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UserControls.Shared.CustomMenuItems" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>UserControls\Shared\MenuItems.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UserControls.Shared.MessageBox" Collapsed="true">
+    <Position X="19.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAggQAAAAAACgASACAIAAAAAQAAAAAAAAAIAAAA=</HashCode>
+      <FileName>UserControls\Shared\MessageBox.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UserControls.Shared.Sidebar" Collapsed="true">
+    <Position X="5.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAIAEAA=</HashCode>
+      <FileName>UserControls\Shared\Sidebar.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.AddItemDetail" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAAEAAAAACAAAQkQAgAAaQIABAAAAAAAAMAgQA=</HashCode>
+      <FileName>Inventory\SetUp\AddItemDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.AddItemDetailEdit" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAAEAAAAACAgAQkQAgAAKQABBAAEAAAAAMAhAA=</HashCode>
+      <FileName>Inventory\SetUp\AddItemDetailEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.AddSupplier" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQhAAAAAASACAIAAgAAkABABAQQgAJAiCAABAAIQAAA=</HashCode>
+      <FileName>Inventory\SetUp\AddSupplier.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.ItemBrandName" Collapsed="true">
+    <Position X="33.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAgAAgAAAAAAAAAABABBAAIBAAAAICAAA=</HashCode>
+      <FileName>Inventory\SetUp\ItemBrandName.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.ItemBrandNameEdit" Collapsed="true">
+    <Position X="35" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAgAAQAIAAAAAAAABAABAAMBAAAAIAAAA=</HashCode>
+      <FileName>Inventory\SetUp\ItemBrandNameEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.ItemCategory" Collapsed="true">
+    <Position X="36.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAgAAIAAAAAEAAABAAAAAAAAAAgAAAIAAAAgICAAA=</HashCode>
+      <FileName>Inventory\SetUp\ItemCategory.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.ItemCategoryEdit" Collapsed="true">
+    <Position X="38.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAAAAAAAAEAAACAAAAAAAAAAgAAAsAAAAAIAAAQ=</HashCode>
+      <FileName>Inventory\SetUp\ItemCategoryEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.ItemPacking" Collapsed="true">
+    <Position X="40.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEIAAAAAAAGAAAAAAAAAQAAAAAACAIAAAAAJCAAA=</HashCode>
+      <FileName>Inventory\SetUp\ItemPacking.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.ItemPackingEdit" Collapsed="true">
+    <Position X="5.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAGAAAAAAAAAgAQAAAgAAMAAAAAICAAA=</HashCode>
+      <FileName>Inventory\SetUp\ItemPackingEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.ItemScale" Collapsed="true">
+    <Position X="7" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgAAAAAEAGABAAAAAAABAAAAAgIAAAAAICAAA=</HashCode>
+      <FileName>Inventory\SetUp\ItemScale.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.ItemScaleEdit" Collapsed="true">
+    <Position X="8.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAEAHAAAAAEAAAAAAAAAEMAAAAAIAAAA=</HashCode>
+      <FileName>Inventory\SetUp\ItemScaleEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.SupplierCategory" Collapsed="true">
+    <Position X="5.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAEAAABIAAAAAAAAAAAACKAgAAAKCAAA=</HashCode>
+      <FileName>Inventory\SetUp\SupplierCategory.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.SupplierCategoryEdit" Collapsed="true">
+    <Position X="7" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAEAAAUAAAAAAAAAAACAAAAAAMAgAAAIAAAA=</HashCode>
+      <FileName>Inventory\SetUp\SupplierCategoryEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.SupplierEdit" Collapsed="true">
+    <Position X="8.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQhAAAAAASACAIAAgAAkABAAAAQgBJAgHAABAAIwAAA=</HashCode>
+      <FileName>Inventory\SetUp\SupplierEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.WarehouseEdit" Collapsed="true">
+    <Position X="28" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAIAAEAIAAABAAAAAAAAAAAAMAAAKAIAAAA=</HashCode>
+      <FileName>Inventory\SetUp\WarehouseEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.WareHouseName" Collapsed="true">
+    <Position X="29.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAAIAAEAoABAAAAAAAAAAAAAAIAAACAICAAA=</HashCode>
+      <FileName>Inventory\SetUp\WareHouseName.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.AddBillDetail" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQEAAhAEUAAAQEAAAAAgQCgAQIAIAAAAICAAACIAgkA=</HashCode>
+      <FileName>Inventory\Transaction\AddBillDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.AddBillMaster" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAABAAEDgBAEYAgAAgAAgAABIIEACAMCABAAIBAAA=</HashCode>
+      <FileName>Inventory\Transaction\AddBillMaster.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.AddPurchaseOrder" Collapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAgECAAAEQAgAAEAAiAAQAYAAAAIAAAAAIBAAA=</HashCode>
+      <FileName>Inventory\Transaction\AddPurchaseOrder.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.AddPurchaseOrderDetail" Collapsed="true">
+    <Position X="33.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAMIAAQGAAIoBEQABAAYAAJAQgIAAAAAIAAAA=</HashCode>
+      <FileName>Inventory\Transaction\AddPurchaseOrderDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.BillCheck" Collapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAABAAAAAAAgAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Inventory\Transaction\BillCheck.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.BillList" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BYAAAwAAggABAAJQBgAEAA4gAARISEACEkAAgAIABaA=</HashCode>
+      <FileName>Inventory\Transaction\BillList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.BillMasterEdit" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAADAwEBARQE4QAAAACANAQBEIECCAEAABeAIJBQI=</HashCode>
+      <FileName>Inventory\Transaction\BillMasterEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.PurchaseOrderEdit" Collapsed="true">
+    <Position X="5.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgECAAAEQAgAAEQQiAIQAQBCAAMAAACAIBBAA=</HashCode>
+      <FileName>Inventory\Transaction\PurchaseOrderEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.StockList" Collapsed="true">
+    <Position X="22.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgJAAAAAQAAgAAAAgAAABIAAAAAAAAABIAAAA=</HashCode>
+      <FileName>Inventory\Transaction\StockList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.StoreIssueCheck" Collapsed="true">
+    <Position X="24.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAoAIAAAAAAAAAAAgAAAAqAABBIAAAAAEAAAQIAAQA=</HashCode>
+      <FileName>Inventory\Transaction\StoreIssueCheck.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.StoreIssueDetail" Collapsed="true">
+    <Position X="26.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAEMIAAQEAAAoBEQAAAAIAIIAQgIAAAAAJAAAA=</HashCode>
+      <FileName>Inventory\Transaction\StoreIssueDetail.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.StoreIssueList" Collapsed="true">
+    <Position X="28" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>Inventory\Transaction\StoreIssueList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.StoreIssueMaster" Collapsed="true">
+    <Position X="29.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAgACAAAFQCAEAAAAAAAAAIAABAMAAAAgIEAAA=</HashCode>
+      <FileName>Inventory\Transaction\StoreIssueMaster.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Inventory.Transaction.StoreIssueMasterEdit" Collapsed="true">
+    <Position X="31.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgECEAQEQCAMAAAAAAAAAIAAAAMCAACAJBAAA=</HashCode>
+      <FileName>Inventory\Transaction\StoreIssueMasterEdit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Twic.Lang.English" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAABAAAAAEAAAA=</HashCode>
+      <FileName>Lang\English.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Twic.Lang.Spanish" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAABAAAAgEAAAA=</HashCode>
+      <FileName>Lang\Spanish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Twic.Lang.TwicBase" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAABAAAAAEAAAA=</HashCode>
+      <FileName>Lang\TwicBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.MasterPages.Global" Collapsed="true">
+    <Position X="40.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAwAEAAAAAABAAAAAAAIIAIAgAAAAAAAAEIAAAA=</HashCode>
+      <FileName>MasterPages\Global.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ModalClasses.MessageDetails" Collapsed="true">
+    <Position X="21" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>ModalClasses\ResponseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.ModalClasses.EazitaMessageInfo" Collapsed="true">
+    <Position X="40.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABABAAAABAAABAAAAAAAIAAA=</HashCode>
+      <FileName>ModalClasses\ResponseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PortalWizard.BranchName" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAIIAAAgBAgAACAAAIAAAA=</HashCode>
+      <FileName>PortalWizard\BranchName.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PortalWizard.BranchWorkingDays" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAGgACAIAAAAAAAAAEAIIAAAgBAAAAAAAAIJCAA=</HashCode>
+      <FileName>PortalWizard\BranchWorkingDays.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PortalWizard.Department" Collapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAEAAAAAAAAAAAAIIAAAgBAAAAAAAAIAAAE=</HashCode>
+      <FileName>PortalWizard\Department.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PortalWizard.Designation" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAAAAAAAAAAAAAAAIIAAAgBAAAAAAAAIAAAI=</HashCode>
+      <FileName>PortalWizard\Designation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PortalWizard.EmployeeShift" Collapsed="true">
+    <Position X="24.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAQBAIAAAAAAAAAAAAAAAIIAAAgBAAFAAAAAIAAAA=</HashCode>
+      <FileName>PortalWizard\EmployeeShift.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PortalWizard.PortalName" Collapsed="true">
+    <Position X="35" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAABAAAAAAAAAIIAEAgBAAAAAAAAIAAAA=</HashCode>
+      <FileName>PortalWizard\PortalName.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.PortalWizard.Wellcome" Collapsed="true">
+    <Position X="31.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIIAAAgBAAAAAAAAIAAEA=</HashCode>
+      <FileName>PortalWizard\Welcome.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMS_OPIIT.Report" Collapsed="true">
+    <Position X="12.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAAAAAAAAgAAAAEQAAAAAQAAAIAABA=</HashCode>
+      <FileName>Report.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMS_OPIIT.Report2" Collapsed="true">
+    <Position X="14" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAEAAAAAAAAAAAAAECAAAIAAAQAIAAAA=</HashCode>
+      <FileName>Report2.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Reports.StatusReport" Collapsed="true">
+    <Position X="12.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBCABJAAAQAAAAAAAIAAAAAAAAAAAADAABAAAABAA=</HashCode>
+      <FileName>Reports\StatusReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Reports.CachedStatusReport" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\StatusReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Portal.Reports.StatusReportClassWise" Collapsed="true">
+    <Position X="14" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBCABJAAAQAAAAAAAIAAAAAAAAAAAADAABAAAABAA=</HashCode>
+      <FileName>Reports\StatusReportClassWise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Reports.CachedStatusReportClassWise" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\StatusReportClassWise.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Portal.Reports.StatusReportSummary" Collapsed="true">
+    <Position X="17.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBCABJAgAQAAAAAAAIAAAAAAAAAAAADgABAAAABAA=</HashCode>
+      <FileName>Reports\StatusReportSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Reports.CachedStatusReportSummary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\StatusReportSummary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Portal.service.StudentData" Collapsed="true">
+    <Position X="5.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>service\StudentData.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UserControls.Dashboard.AdminDashboard" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAIAAAAAAAAAAAAAABACBAEAAIBABA=</HashCode>
+      <FileName>UserControls\Dashboard\AdminDashboard.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UserControls.Dashboard.StudentDashboard" Collapsed="true">
+    <Position X="40.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiQQAAgAAAAEgAAAAAABAgCAAAJAikAEAEAACIDAIA=</HashCode>
+      <FileName>UserControls\Dashboard\StudentDashboard.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.UserControls.Dashboard.TeacherDashboard" Collapsed="true">
+    <Position X="12.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAGAAggEAAAEgAAAAAAAAAAAQoAAAQRAoCAIA=</HashCode>
+      <FileName>UserControls\Dashboard\TeacherDashboard.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.CommonMethods" Collapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAAAACAAAAAAEAQAAAACgAgAAAAAAkAAAABAAA=</HashCode>
+      <FileName>Utility\CommonMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.Data" Collapsed="true">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.CustomDataValoidation" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\DataValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.ExtensionMethods" Collapsed="true">
+    <Position X="8.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.Helper" Collapsed="true">
+    <Position X="14" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAIABAEAAAAAABCAAABAIEAAAQCIAAAAg=</HashCode>
+      <FileName>Utility\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.CommanUtilities" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.RequestManager" Collapsed="true">
+    <Position X="17.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Utility\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.IntExtensions" Collapsed="true">
+    <Position X="29.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAEAAgABAAAAAgAAAAAAAAAABIAAAAAAA=</HashCode>
+      <FileName>Utility\LangMapping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.Resource" Collapsed="true">
+    <Position X="19.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIRAAIEAAAAAAAAABEAAAAQAEBAAAAgABAKQEAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Utility.SMSSenderHelper" Collapsed="true">
+    <Position X="10.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAACAAAgIAAAACAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Utility\SMSSender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TimeUnits" Collapsed="true">
+    <Position X="10.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJACAAAAAAAAAAAIAAAEAACIEAAAAAIAAAAA=</HashCode>
+      <FileName>attendance\Common\DateTimeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PublicEdge.DAL.Model.Attendance.AttendenceLogType" Collapsed="true">
+    <Position X="5.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>attendance\DAL\Models\EmployeeAttendenceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PublicEdge.DAL.Model.Attendance.LeaveStatus" Collapsed="true">
+    <Position X="8.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>attendance\DAL\Models\LeaveAdjustmentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Portal.Utility.ValidateType" Collapsed="true">
+    <Position X="12.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAACAAAAAAgQAAAAAAAAgAACAAAAAAAAAAQABAAAAA=</HashCode>
+      <FileName>Utility\DataValidation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Portal.Utility.Language" Collapsed="true">
+    <Position X="7" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAACAAAAA=</HashCode>
+      <FileName>Utility\LangMapping.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB22AD6D-F826-4CFA-9AB1-114F1E270637}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication10</RootNamespace>
+    <AssemblyName>WebApplication10</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.0.0.14, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\New folder\SPARK AR PRODUCT\Portal\DLL\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.69.1.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.0.1.1, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Framwork, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\Framwork.dll</HintPath>
+    </Reference>
+    <Reference Include="Hangfire.Core, Version=1.3.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\Hangfire.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hangfire.SqlServer, Version=1.3.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\Hangfire.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Otin.Ref, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\Microsoft.Otin.Ref.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCoder, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\New folder\SPARK AR PRODUCT\Portal\DLL\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="ReadDataFromExcel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SPARK AR PRODUCT\Portal\DLL\ReadDataFromExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.EnterpriseServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>packages\AspNet.ScriptManager.bootstrap.3.4.1\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>packages\AspNet.ScriptManager.jQuery.3.3.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="400.html" />
+    <Content Include="500.html" />
+    <Content Include="700.html" />
+    <Content Include="About.aspx" />
+    <Content Include="AccessDenied.aspx" />
+    <Content Include="AddMember.aspx" />
+    <Content Include="AddMemberDetails.aspx" />
+    <Content Include="AddMemberPackage.aspx" />
+    <Content Include="AddPackage.aspx" />
+    <Content Include="AddVideoURL.aspx" />
+    <Content Include="AllBooks.aspx" />
+    <Content Include="Attendance.aspx" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="DLL\QRCoder.dll" />
+    <Content Include="EditBook.aspx" />
+    <Content Include="AddBook.aspx" />
+    <Content Include="AddContent.aspx" />
+    <Content Include="EditMember.aspx" />
+    <Content Include="EditPackage.aspx" />
+    <Content Include="EditVideoURL.aspx" />
+    <Content Include="Fees.aspx" />
+    <Content Include="UpdatePublisher.aspx" />
+    <Content Include="AllPermissions.aspx" />
+    <Content Include="assets\bootstrap-colorpicker\css\colorpicker.css" />
+    <Content Include="assets\bootstrap-colorpicker\img\alpha.png" />
+    <Content Include="assets\bootstrap-colorpicker\img\hue.png" />
+    <Content Include="assets\bootstrap-colorpicker\img\saturation.png" />
+    <Content Include="assets\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
+    <Content Include="assets\bootstrap-datepicker\css\datepicker.css" />
+    <Content Include="assets\bootstrap-datepicker\js\bootstrap-datepicker.js" />
+    <Content Include="assets\bootstrap-daterangepicker\date.js" />
+    <Content Include="assets\bootstrap-daterangepicker\daterangepicker.css" />
+    <Content Include="assets\bootstrap-daterangepicker\daterangepicker.js" />
+    <Content Include="assets\chart-master\Chart.js" />
+    <Content Include="assets\ckeditor\ckeditor.js" />
+    <Content Include="assets\data-tables\DT_bootstrap.js" />
+    <Content Include="assets\data-tables\jquery.dataTables.js" />
+    <Content Include="assets\font-awesome\css\font-awesome.css" />
+    <Content Include="assets\font-awesome\font\fontawesome-webfont.svg" />
+    <Content Include="assets\fullcalendar\fullcalendar\bootstrap-fullcalendar.css" />
+    <Content Include="assets\fullcalendar\fullcalendar\fullcalendar.min.js" />
+    <Content Include="assets\gritter\css\jquery.gritter.css" />
+    <Content Include="assets\gritter\images\gritter-light.png" />
+    <Content Include="assets\gritter\images\gritter.png" />
+    <Content Include="assets\gritter\images\ie-spacer.gif" />
+    <Content Include="assets\gritter\js\jquery.gritter.js" />
+    <Content Include="assets\jquery-easy-pie-chart\jquery.easy-pie-chart.css" />
+    <Content Include="assets\jquery-easy-pie-chart\jquery.easy-pie-chart.js" />
+    <Content Include="assets\jquery-file-upload\css\jquery.fileupload-ui.css" />
+    <Content Include="assets\jquery-file-upload\img\loading.gif" />
+    <Content Include="assets\jquery-file-upload\img\progressbar.gif" />
+    <Content Include="assets\jquery-file-upload\js\jquery.fileupload-fp.js" />
+    <Content Include="assets\jquery-file-upload\js\jquery.fileupload-ui.js" />
+    <Content Include="assets\jquery-file-upload\js\jquery.fileupload.js" />
+    <Content Include="assets\jquery-file-upload\js\jquery.iframe-transport.js" />
+    <Content Include="assets\jquery-file-upload\js\vendor\canvas-to-blob.min.js" />
+    <Content Include="assets\jquery-file-upload\js\vendor\jquery.ui.widget.js" />
+    <Content Include="assets\jquery-file-upload\js\vendor\load-image.min.js" />
+    <Content Include="assets\jquery-file-upload\js\vendor\tmpl.min.js" />
+    <Content Include="assets\jquery-knob\js\jquery.knob.js" />
+    <Content Include="assets\jquery-ui\images\animated-overlay.gif" />
+    <Content Include="assets\jquery-ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="assets\jquery-ui\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="assets\jquery-ui\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="assets\jquery-ui\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="assets\jquery-ui\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="assets\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="assets\jquery-ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="assets\jquery-ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="assets\jquery-ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="assets\jquery-ui\images\ui-icons_222222_256x240.png" />
+    <Content Include="assets\jquery-ui\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="assets\jquery-ui\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="assets\jquery-ui\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="assets\jquery-ui\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="assets\jquery-ui\jquery-ui-1.10.1.custom.min.css" />
+    <Content Include="assets\jquery-ui\jquery-ui-1.10.1.custom.min.js" />
+    <Content Include="assets\morris.js-0.4.3\morris.css" />
+    <Content Include="assets\morris.js-0.4.3\morris.min.js" />
+    <Content Include="assets\morris.js-0.4.3\raphael-min.js" />
+    <Content Include="assets\Sharpose.jpeg" />
+    <Content Include="bin\AppServiceFactory.dll" />
+    <Content Include="bin\AppServiceFactory.pdb" />
+    <Content Include="bin\AutoMapper.dll" />
+    <Content Include="bin\AutoMapper.Net4.dll" />
+    <Content Include="bin\BarcodeLib.dll" />
+    <Content Include="bin\ClosedXML.dll" />
+    <Content Include="bin\CrystalDecisions.CrystalReports.Engine.dll" />
+    <Content Include="bin\CrystalDecisions.ReportSource.dll" />
+    <Content Include="bin\CrystalDecisions.Shared.dll" />
+    <Content Include="bin\CrystalDecisions.Web.dll" />
+    <Content Include="bin\DocumentFormat.OpenXml.dll" />
+    <Content Include="bin\EPPlus.dll" />
+    <Content Include="bin\EPPlus.xml" />
+    <Content Include="bin\Framwork.dll" />
+    <Content Include="bin\Framwork.pdb" />
+    <Content Include="bin\Hangfire.Core.dll" />
+    <Content Include="bin\Hangfire.SqlServer.dll" />
+    <Content Include="bin\Ionic.Zip.Reduced.dll" />
+    <Content Include="bin\itextsharp.dll" />
+    <Content Include="bin\Microsoft.CSharp.dll" />
+    <Content Include="bin\Microsoft.Otin.Ref.dll" />
+    <Content Include="bin\Microsoft.Otin.Ref.pdb" />
+    <Content Include="bin\Microsoft.ReportViewer.WebForms.dll" />
+    <Content Include="bin\MiniProfiler.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Portal.BL.dll" />
+    <Content Include="bin\Portal.BL.pdb" />
+    <Content Include="bin\Portal.dll" />
+    <Content Include="bin\Portal.pdb" />
+    <Content Include="bin\ReadDataFromExcel.dll" />
+    <Content Include="bin\ReadDataFromExcel.pdb" />
+    <Content Include="bin\System.ComponentModel.DataAnnotations.dll" />
+    <Content Include="bin\System.Data.DataSetExtensions.dll" />
+    <Content Include="bin\System.Data.dll" />
+    <Content Include="bin\System.Data.Linq.dll" />
+    <Content Include="bin\System.Drawing.dll" />
+    <Content Include="bin\System.EnterpriseServices.dll" />
+    <Content Include="bin\System.EnterpriseServices.Wrapper.dll" />
+    <Content Include="bin\System.Web.ApplicationServices.dll" />
+    <Content Include="bin\System.Web.dll" />
+    <Content Include="bin\System.Web.DynamicData.dll" />
+    <Content Include="bin\System.Web.Entity.dll" />
+    <Content Include="bin\System.Web.Extensions.dll" />
+    <Content Include="bin\System.Web.Services.dll" />
+    <Content Include="bin\System.Xml.Linq.dll" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="css\bootstrap-reset.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\DatePicker.css" />
+    <Content Include="css\layout.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\slidebars.css" />
+    <Content Include="css\style-responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\toastr.css" />
+    <Content Include="css\wickedpicker.min.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="DLL\ClosedXML.dll" />
+    <Content Include="DLL\DocumentFormat.OpenXml.dll" />
+    <Content Include="DLL\EPPlus.dll" />
+    <Content Include="DLL\EPPlus.xml" />
+    <Content Include="DLL\Framwork.dll" />
+    <Content Include="DLL\Framwork.pdb" />
+    <Content Include="DLL\Ionic.Zip.Reduced.dll" />
+    <Content Include="DLL\itextsharp.dll" />
+    <Content Include="DLL\Microsoft.Otin.Ref.dll" />
+    <Content Include="DLL\Microsoft.Otin.Ref.pdb" />
+    <Content Include="DLL\Microsoft.ReportViewer.WebForms.dll" />
+    <Content Include="DLL\ReadDataFromExcel.dll" />
+    <Content Include="DLL\ReadDataFromExcel.pdb" />
+    <Content Include="EmployeeDirectory.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\fontello.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FullMenu.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="api\apicall.ashx" />
+    <Content Include="api\AttendanceUploder.ashx" />
+    <Content Include="assets\font-awesome\font\fontawesome-webfontd41d.eot" />
+    <Content Include="assets\font-awesome\font\fontawesome-webfontf77b.eot" />
+    <Content Include="assets\font-awesome\font\fontawesome-webfontf77b.ttf" />
+    <Content Include="assets\font-awesome\font\fontawesome-webfontf77b.woff" />
+    <Content Include="bin\Portal.dll.config" />
+    <Content Include="fonts\Descr.WD3" />
+    <Content Include="fonts\fontello.eot" />
+    <Content Include="fonts\fontello.ttf" />
+    <Content Include="fonts\fontello.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot%40" />
+    <Content Include="fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Handlers\AttendanceMarker.ashx" />
+    <Content Include="Header.ascx" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="img\checkbox\Descr.WD3" />
+    <Content Include="img\Descr.WD3" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="logs.txt" />
+    <Content Include="ManageStudent.aspx" />
+    <Content Include="ManageUserPermissions.aspx" />
+    <Content Include="MasterPages\Global.Master" />
+    <Content Include="ClassDiagram1.cd" />
+    <Content Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="SignUp.aspx" />
+    <Content Include="ViewAllAttendance.aspx" />
+    <Content Include="ViewAllFeesRecord.aspx" />
+    <Content Include="ViewAllMembers.aspx" />
+    <Content Include="ViewAllPackages.aspx" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="YouTube.aspx" />
+    <Content Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd" />
+    <Content Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="DLL\QRCoder.dll.refresh" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="img\1311232189.or.64487.png" />
+    <Content Include="img\404_icon.png" />
+    <Content Include="img\500_icon.png" />
+    <Content Include="img\arrow-up.png" />
+    <Content Include="img\ASIES-Timetable-Dec-2014.png" />
+    <Content Include="img\avatar-mini.jpg" />
+    <Content Include="img\avatar-mini2.jpg" />
+    <Content Include="img\avatar-mini3.jpg" />
+    <Content Include="img\avatar-mini4.jpg" />
+    <Content Include="img\avatar1.jpg" />
+    <Content Include="img\avatar1_small.jpg" />
+    <Content Include="img\barcode.png" />
+    <Content Include="img\CardFront.jpg" />
+    <Content Include="img\chart-texture.jpg" />
+    <Content Include="img\chat-avatar.jpg" />
+    <Content Include="img\chat-avatar2.jpg" />
+    <Content Include="img\checkbox\check-off.png" />
+    <Content Include="img\checkbox\check-on.png" />
+    <Content Include="img\checkbox\radio-off.png" />
+    <Content Include="img\checkbox\radio-on.png" />
+    <Content Include="img\cloud_server.png" />
+    <Content Include="img\customSelect-arrow.gif" />
+    <Content Include="img\favicon.html" />
+    <Content Include="img\follower-avatar.jpg" />
+    <Content Include="img\left-arrow.png" />
+    <Content Include="img\mail-avatar.jpg" />
+    <Content Include="img\mask.png" />
+    <Content Include="img\Melissa-Mendes.gif" />
+    <Content Include="img\noprofile.jpg" />
+    <Content Include="img\pro-ac-1.png" />
+    <Content Include="img\pro-ac-2.png" />
+    <Content Include="img\product1.jpg" />
+    <Content Include="img\product2.png" />
+    <Content Include="img\product3.png" />
+    <Content Include="img\profile-avatar.jpg" />
+    <Content Include="img\right-arrow.png" />
+    <Content Include="img\ring.jpg" />
+    <Content Include="img\Salwa-Mohammed-7861556.jpg" />
+    <Content Include="img\Sample_Grade_4_Schedule.jpg" />
+    <Content Include="img\search-icon.jpg" />
+    <Content Include="img\slides\1.jpg" />
+    <Content Include="img\slides\2.jpg" />
+    <Content Include="img\slides\3.jpg" />
+    <Content Include="img\slides\4.jpg" />
+    <Content Include="img\slides\5.jpg" />
+    <Content Include="img\sm-img-1.jpg" />
+    <Content Include="img\sm-img-2.jpg" />
+    <Content Include="img\sm-img-3.jpg" />
+    <Content Include="img\subscribe-white.svg" />
+    <Content Include="img\vector-lab.jpg" />
+    <Content Include="img\x-tick.png" />
+    <Content Include="img\x500_icon.png" />
+    <Content Include="img\y-tick.png" />
+    <Content Include="js\all-chartjs.js" />
+    <Content Include="js\bootstrap-switch.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\checkboxes.js" />
+    <Content Include="js\common-scripts.js" />
+    <Content Include="js\datepicker.js" />
+    <Content Include="js\dynamic-table.js" />
+    <Content Include="js\easy-pie-chart.js" />
+    <Content Include="js\external-dragging-calendar.js" />
+    <Content Include="js\form-component.js" />
+    <Content Include="js\form-validation-script.js" />
+    <Content Include="js\ga.js" />
+    <Content Include="js\gritter.js" />
+    <Content Include="js\jquery-1.8.3.min.js" />
+    <Content Include="js\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="js\jquery.customSelect.min.js" />
+    <Content Include="js\jquery.dcjqaccordion.2.7.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.maskedinput.js" />
+    <Content Include="js\jquery.nicescroll.js" />
+    <Content Include="js\jquery.scrollTo.min.js" />
+    <Content Include="js\jquery.sparkline.js" />
+    <Content Include="js\jquery.stepy.js" />
+    <Content Include="js\jquery.tagsinput.js" />
+    <Content Include="js\jquery.validate.min.js" />
+    <Content Include="js\morris-script.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\slidebars.min.js" />
+    <Content Include="js\sliders.js" />
+    <Content Include="js\sparkline-chart.js" />
+    <Content Include="js\toastr.js" />
+    <Content Include="js\trueman.js" />
+    <Content Include="js\wickedpicker.min.js" />
+    <Content Include="MasterReset.aspx" />
+    <Content Include="Menus.aspx" />
+    <Content Include="MyBookList.aspx" />
+    <Content Include="PermissionGroupsEdit.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="stylesheets\wickedpicker.css" />
+    <Content Include="tast.html" />
+    <Content Include="UserControls\Dashboard\AdminDashboard.ascx" />
+    <Content Include="UserControls\Shared\HeaderFinalControl.ascx" />
+    <Content Include="UserControls\Shared\MenuItems.ascx" />
+    <Content Include="UserControls\Shared\MessageBox.ascx" />
+    <Content Include="UserControls\Shared\Sidebar.ascx" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddMember.aspx.cs">
+      <DependentUpon>AddMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddMember.aspx.designer.cs">
+      <DependentUpon>AddMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddMemberDetails.aspx.cs">
+      <DependentUpon>AddMemberDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddMemberDetails.aspx.designer.cs">
+      <DependentUpon>AddMemberDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddMemberPackage.aspx.cs">
+      <DependentUpon>AddMemberPackage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddMemberPackage.aspx.designer.cs">
+      <DependentUpon>AddMemberPackage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPackage.aspx.cs">
+      <DependentUpon>AddPackage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPackage.aspx.designer.cs">
+      <DependentUpon>AddPackage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddVideoURL.aspx.cs">
+      <DependentUpon>AddVideoURL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddVideoURL.aspx.designer.cs">
+      <DependentUpon>AddVideoURL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllBooks.aspx.cs">
+      <DependentUpon>AllBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllBooks.aspx.designer.cs">
+      <DependentUpon>AllBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance.aspx.cs">
+      <DependentUpon>Attendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attendance.aspx.designer.cs">
+      <DependentUpon>Attendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EditBook.aspx.cs">
+      <DependentUpon>EditBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditBook.aspx.designer.cs">
+      <DependentUpon>EditBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddBook.aspx.cs">
+      <DependentUpon>AddBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddBook.aspx.designer.cs">
+      <DependentUpon>AddBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddContent.aspx.cs">
+      <DependentUpon>AddContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddContent.aspx.designer.cs">
+      <DependentUpon>AddContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditMember.aspx.cs">
+      <DependentUpon>EditMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditMember.aspx.designer.cs">
+      <DependentUpon>EditMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPackage.aspx.cs">
+      <DependentUpon>EditPackage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditPackage.aspx.designer.cs">
+      <DependentUpon>EditPackage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditVideoURL.aspx.cs">
+      <DependentUpon>EditVideoURL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditVideoURL.aspx.designer.cs">
+      <DependentUpon>EditVideoURL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fees.aspx.cs">
+      <DependentUpon>Fees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fees.aspx.designer.cs">
+      <DependentUpon>Fees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePublisher.aspx.cs">
+      <DependentUpon>UpdatePublisher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdatePublisher.aspx.designer.cs">
+      <DependentUpon>UpdatePublisher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllPermissions.aspx.cs">
+      <DependentUpon>AllPermissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllPermissions.aspx.designer.cs">
+      <DependentUpon>AllPermissions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="api\AttendanceUploder.ashx.cs">
+      <DependentUpon>AttendanceUploder.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ResourceFile.designer.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDirectory.aspx.cs">
+      <DependentUpon>EmployeeDirectory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeDirectory.aspx.designer.cs">
+      <DependentUpon>EmployeeDirectory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FullMenu.aspx.cs">
+      <DependentUpon>FullMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FullMenu.aspx.designer.cs">
+      <DependentUpon>FullMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\AttendanceMarker.ashx.cs">
+      <DependentUpon>AttendanceMarker.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageStudent.aspx.cs">
+      <DependentUpon>ManageStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageStudent.aspx.designer.cs">
+      <DependentUpon>ManageStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUserPermissions.aspx.cs">
+      <DependentUpon>ManageUserPermissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageUserPermissions.aspx.designer.cs">
+      <DependentUpon>ManageUserPermissions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Global.Master.cs">
+      <DependentUpon>Global.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Global.Master.designer.cs">
+      <DependentUpon>Global.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterReset.aspx.cs">
+      <DependentUpon>MasterReset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterReset.aspx.designer.cs">
+      <DependentUpon>MasterReset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menus.aspx.cs">
+      <DependentUpon>Menus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menus.aspx.designer.cs">
+      <DependentUpon>Menus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModalClasses\AccountService.cs" />
+    <Compile Include="ModalClasses\AuthenticationModel.cs" />
+    <Compile Include="ModalClasses\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModalClasses\BaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModalClasses\Constants.cs" />
+    <Compile Include="ModalClasses\Extensions.cs" />
+    <Compile Include="ModalClasses\LoggedIn.cs" />
+    <Compile Include="ModalClasses\PortalSequenceNumber.cs" />
+    <Compile Include="ModalClasses\PublisherInfo.cs" />
+    <Compile Include="ModalClasses\ResponseInfo.cs" />
+    <Compile Include="ModalClasses\SessionService.cs" />
+    <Compile Include="MyBookList.aspx.cs">
+      <DependentUpon>MyBookList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyBookList.aspx.designer.cs">
+      <DependentUpon>MyBookList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PermissionGroupsEdit.aspx.cs">
+      <DependentUpon>PermissionGroupsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PermissionGroupsEdit.aspx.designer.cs">
+      <DependentUpon>PermissionGroupsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\AdminDashboard.ascx.cs">
+      <DependentUpon>AdminDashboard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\AdminDashboard.ascx.designer.cs">
+      <DependentUpon>AdminDashboard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Shared\HeaderFinalControl.ascx.cs">
+      <DependentUpon>HeaderFinalControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Shared\HeaderFinalControl.ascx.designer.cs">
+      <DependentUpon>HeaderFinalControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Shared\MenuItems.ascx.cs">
+      <DependentUpon>MenuItems.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Shared\MenuItems.ascx.designer.cs">
+      <DependentUpon>MenuItems.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Shared\MessageBox.ascx.cs">
+      <DependentUpon>MessageBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Shared\MessageBox.ascx.designer.cs">
+      <DependentUpon>MessageBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Shared\Sidebar.ascx.cs">
+      <DependentUpon>Sidebar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Shared\Sidebar.ascx.designer.cs">
+      <DependentUpon>Sidebar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\BarcodeLibrary.cs" />
+    <Compile Include="Utility\CommonMethods.cs" />
+    <Compile Include="Utility\Data.Designer.cs" />
+    <Compile Include="Utility\DataValidation.cs" />
+    <Compile Include="Utility\Helper.cs" />
+    <Compile Include="Utility\Resource.Designer.cs" />
+    <Compile Include="ViewAllAttendance.aspx.cs">
+      <DependentUpon>ViewAllAttendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAllAttendance.aspx.designer.cs">
+      <DependentUpon>ViewAllAttendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAllFeesRecord.aspx.cs">
+      <DependentUpon>ViewAllFeesRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAllFeesRecord.aspx.designer.cs">
+      <DependentUpon>ViewAllFeesRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAllMembers.aspx.cs">
+      <DependentUpon>ViewAllMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAllMembers.aspx.designer.cs">
+      <DependentUpon>ViewAllMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAllPackages.aspx.cs">
+      <DependentUpon>ViewAllPackages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAllPackages.aspx.designer.cs">
+      <DependentUpon>ViewAllPackages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YouTube.aspx.cs">
+      <DependentUpon>YouTube.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YouTube.aspx.designer.cs">
+      <DependentUpon>YouTube.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admin\ModalClasses\" />
+    <Folder Include="App_Code\" />
+    <Folder Include="App_Data\exception_logs\" />
+    <Folder Include="aspnet_client\system_web\4_0_30319\" />
+    <Folder Include="assets\free3of9\" />
+    <Folder Include="img\NewFolder1\" />
+    <Folder Include="QRCODES\" />
+    <Folder Include="service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Utility\Data.resx" />
+    <EmbeddedResource Include="Utility\Resource.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57078</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57078/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

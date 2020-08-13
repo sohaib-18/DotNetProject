@@ -1,0 +1,178 @@
+﻿.form-horizontal .form-actions {
+  padding-left: 0;
+  border-width: 0;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  text-align: center;
+  /* 
+    Removed padding from left and add text-align
+    because we need buttons to be center aligned
+    Also overrid background and border, because we donot need them
+    */
+}
+.form-horizontal .form-actions:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.form-horizontal .form-actions.action-buttons-top {
+  padding-left: 0;
+  padding-top: 0;
+  text-align: left;
+}
+.form-horizontal .form-actions.form-actions-right {
+  text-align: right;
+}
+
+/* remove hand cursor from all labels */
+.form-horizontal .control-label {
+  cursor: default;
+}
+
+.form-horizontal .control-label {
+  padding-top: 0;
+  display: table-cell;
+  vertical-align: middle;
+  height: 31px;
+  line-height: 1;
+}
+/* we donot want red color on label when error occured. */
+.form-horizontal .control-group.error .control-label {
+  color: inherit;
+}
+.form-horizontal .control-inline {
+  width: 180px;
+  display: inline-block;
+}
+
+
+.form-horizontal .form-group {
+  margin-bottom: 0;
+}
+.form-horizontal .form-group + .form-group + .form-group {
+  margin-top: 5px;
+}
+.form-horizontal .form-group input[disabled],
+.form-horizontal .form-group input:disabled {
+  /* http://stackoverflow.com/questions/15962565/styles-for-inputs-dont-appear-to-work-on-an-ipad */
+  -webkit-text-fill-color: #222!important;
+}
+.form-horizontal .form-group [class*="col-lg-"],
+.form-horizontal .form-group [class*="col-xs-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+.form-horizontal.has-tooltips .controls {
+  margin-right: 18px;
+  position: relative;
+}
+.form-horizontal .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+
+
+.form-horizontal textarea.form-control ,
+.form-horizontal input[type="text"].form-control ,
+.form-horizontal input[type="password"].form-control ,
+.form-horizontal select.form-control  {
+  line-height: 1.4;
+}
+
+
+.form-horizontal .btn-sm.form-control  {
+  border-width: 3px;
+  padding: 3px 7px;
+  line-height: 1.38;
+  height: 30px;
+}
+.form-horizontal select.form-control  {
+  padding: 3px 4px;
+  height: 28px;
+}
+/*-----------------------------------------*/
+/*Iphone Fix for textarea padding and input*/
+.form-horizontal select.form-control {
+  padding: 5px 1px;
+  height: 30px;
+}
+.firefox .form-horizontal select.form-control {
+  padding-top: 7px;
+}
+.ie .form-horizontal select.form-control {
+  padding-top: 6px;
+}
+
+
+
+.form-horizontal .controls + .controls {
+  margin-top: 0 !important;
+}
+
+.form-horizontal .form-group.no-label label {
+  display: none;
+}
+.form-horizontal .form-group.no-label .controls {
+  margin-top: 0;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .two-column-layout .form-group {
+        width: 49.7%;
+        float: left;
+        /*display: inline-block;*/
+        vertical-align: top;
+    }
+
+    .form-horizontal .form-group .control-label {
+        width: 150px;
+    }
+
+    .form-horizontal .form-group .controls,
+    .form-horizontal .form-group .controls.row {
+        margin-left: 153px;
+        margin-top: -30px;
+        min-height: 30px;
+    }
+
+
+    .form-horizontal .form-inline .control-label {
+        width: 80px;
+    }
+
+    .form-horizontal .form-inline .controls {
+        margin-left: 82px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .form-horizontal .control-label {
+        float: none;
+        text-align: left;
+    }
+
+    .form-horizontal .control-value {
+        padding-left: 0;
+    }
+
+    .form-horizontal .controls {
+        margin-left: 0;
+    }
+
+    .form-horizontal .two-column-layout .form-group {
+        width: auto;
+        float: none;
+    }
+}

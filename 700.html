@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+    <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <link rel="shortcut icon" href="img/favicon.html">
+
+    <title>400</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+
+    
+</head>
+<script src="http://code.jquery.com/jquery-2.0.2.js"></script>
+
+
+<body class="body-400" style="background:url(assets/Sharpose.jpeg);background-repeat: no-repeat;";>
+
+    <div class="container">
+
+      <section class="error-wrapper">
+
+    <input id="MobileNo" type="text" /> <br />
+          
+  
+   <button onclick="myFunction()">Activate Decive</button> <br />
+
+   <button onclick="myFunctionPing()">Ping Device</button>
+
+
+
+
+
+
+      </section>
+
+    </div>
+
+
+      <script>
+          function myFunctionPing() {
+
+              var mobileno= document.getElementById("MobileNo").value;
+              var url = 'http://ab.msmsmarketing.com/sendapi.aspx?id=mps123&pass=0711&mobile=' + mobileno + '&brandname=MPS&msg=Sharpose Box 99 has been filled. Kindly replace it.%0aSent From AHS-SHARPOSE';
+             // alert(url);
+             
+              window.location = url;
+              //  document.lo("demo").innerHTML += "Hello World";
+          }
+
+
+          function myFunction() {
+
+
+
+              var min = 3456;
+              var max = 7777;
+              min = Math.ceil(min);
+              max = Math.floor(max);
+              var result = Math.floor(Math.random() * (max - min + 1)) + min;
+
+
+
+              var randomCode = '';
+              var mobileno = document.getElementById("MobileNo").value;
+              var url = 'http://ab.msmsmarketing.com/sendapi.aspx?id=mps123&pass=0711&mobile=' + mobileno + '&brandname=MPS&msg=Sharpose Box 99 has been Activated.%0aCode is ' + result + '%0aSent From AHS-SHARPOSE';
+             // alert(url);
+
+              window.location = url;
+              //  document.lo("demo").innerHTML += "Hello World";
+          }
+
+</script>
+
+
+  </body>
+</html>
