@@ -24,6 +24,60 @@ namespace WebApplication10
         protected global::WebApplication10.MessageBox MessageBox1;
 
         /// <summary>
+        /// packageName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox packageName;
+
+        /// <summary>
+        /// packageDetail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox packageDetail;
+
+        /// <summary>
+        /// price control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox price;
+
+        /// <summary>
+        /// discountedPrice control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox discountedPrice;
+
+        /// <summary>
+        /// d1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox d1;
+
+        /// <summary>
+        /// d2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox d2;
+
+        /// <summary>
         /// packageImage control.
         /// </summary>
         /// <remarks>
@@ -33,13 +87,13 @@ namespace WebApplication10
         protected global::System.Web.UI.WebControls.FileUpload packageImage;
 
         /// <summary>
-        /// selectDetailType control.
+        /// packageTypeList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList selectDetailType;
+        protected global::System.Web.UI.WebControls.DropDownList packageTypeList;
 
         /// <summary>
         /// btnSave control.

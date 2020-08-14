@@ -11,7 +11,7 @@ namespace WebApplication10
 {
 
 
-    public partial class ViewAllAttendance
+    public partial class ViewDateAttendance
     {
 
         /// <summary>
@@ -42,15 +42,6 @@ namespace WebApplication10
         protected global::System.Web.UI.WebControls.TextBox datepicker;
 
         /// <summary>
-        /// enterFeesAmount control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox enterFeesAmount;
-
-        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -58,15 +49,6 @@ namespace WebApplication10
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// btnSave control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSave;
 
         /// <summary>
         /// Repeater1 control.

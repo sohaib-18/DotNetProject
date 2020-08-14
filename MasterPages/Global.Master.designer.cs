@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication10.MasterPages {
-    
-    
-    public partial class Global {
-        
+namespace WebApplication10.MasterPages
+{
+
+
+    public partial class Global
+    {
+
         /// <summary>
         /// litPortalName control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace WebApplication10.MasterPages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal litPortalName;
-        
+
         /// <summary>
         /// Slogon control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace WebApplication10.MasterPages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal Slogon;
-        
+
         /// <summary>
         /// HeadPlaceHolder control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace WebApplication10.MasterPages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadPlaceHolder;
-        
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace WebApplication10.MasterPages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// HeaderFinalControl control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace WebApplication10.MasterPages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::WebApplication10.UserControls.Shared.HeaderFinalControl HeaderFinalControl;
-        
+
         /// <summary>
         /// Sidebar control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace WebApplication10.MasterPages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::WebApplication10.UserControls.Shared.Sidebar Sidebar;
-        
+
         /// <summary>
         /// ContentPlaceHolder control.
         /// </summary>
@@ -74,16 +76,7 @@ namespace WebApplication10.MasterPages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder;
-        
-        /// <summary>
-        /// folter control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal folter;
-        
+
         /// <summary>
         /// ScriptsPlaceHolder control.
         /// </summary>

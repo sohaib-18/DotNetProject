@@ -3,7 +3,9 @@
 
 
 
-<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Global.Master" AutoEventWireup="true" CodeBehind="ViewAllAttendance.aspx.cs" Inherits="WebApplication10.ViewAllAttendance" %>
+
+
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Global.Master" AutoEventWireup="true" CodeBehind="ViewMonthlyAttendance.aspx.cs" Inherits="WebApplication10.ViewMonthlyAttendance" %>
 
 <%@ Register Src="UserControls/Shared/MessageBox.ascx" TagName="MessageBox" TagPrefix="uc1" %>
 
@@ -17,7 +19,7 @@
 
     <section class="panel">
         <header class="panel-heading">
-            View All Attendance
+            View Date Attendance
         </header>
 
         <div class="row">
@@ -55,9 +57,8 @@
                     <div class="form-group">
                         <div class="text-center">
                            <asp:Button ID="Button1" runat="server" Text="Search"
-                                CssClass="btn btn-primary" ></asp:Button>
-                            <asp:Button ID="btnSave" runat="server" Text="Search All"
                                 CssClass="btn btn-success" ></asp:Button>
+                            
                         </div>
                         <div style="clear: both;"></div>
                     </div>
@@ -117,4 +118,5 @@
     </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ScriptsPlaceHolder" runat="server">
 </asp:Content>
+
 

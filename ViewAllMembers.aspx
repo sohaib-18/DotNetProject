@@ -37,9 +37,9 @@
             
 <div class="col-sm-5">
                          <asp:Button ID="search"  runat="server"  Text="SEARCH"
-                                CssClass="btn btn-success"></asp:Button>
+                                CssClass="btn btn-success" OnClick="search_Click"></asp:Button>
     <asp:Button ID="searchAll"  runat="server"  Text="SEARCH ALL"
-                                CssClass="btn btn-primary"></asp:Button>
+                                CssClass="btn btn-primary" OnClick="searchAll_Click"></asp:Button>
                 </div>
  <script>
      $(function () {

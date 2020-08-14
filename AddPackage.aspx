@@ -99,7 +99,7 @@
                         <label for="packageImage" class="control-label col-sm-3">Package Image</label>
 
                         <div class="col-sm-9">
-                            <asp:FileUpload ID="packageImage" runat="server" />
+                            <asp:FileUpload ID="packageImage" accept=".png,.jpg,.jpeg" runat="server" />
                         </div>
                         
                         <div style="clear: both;"></div>
@@ -108,10 +108,10 @@
 
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="packageTypeId" class="control-label col-sm-3">Select Package Id</label>
+                        <label for="packageTypeList" class="control-label col-sm-3">Select Package</label>
 
                         <div class="col-sm-9">
-                            <asp:DropDownList ID="packageTypeId" CssClass="form-control" runat="server">
+                            <asp:DropDownList ID="packageTypeList" CssClass="form-control" runat="server">
                                 
                             </asp:DropDownList>
                         </div>
@@ -144,7 +144,7 @@
                         <div class="text-center">
                             <a href="" class="btn btn-info">Back</a>
                             <asp:Button ID="btnSave" runat="server" Text="Add Package"
-                                CssClass="btn btn-success" ></asp:Button>
+                                CssClass="btn btn-success" OnClick="btnSave_Click" ></asp:Button>
                         </div>
                         <div style="clear: both;"></div>
                     </div>

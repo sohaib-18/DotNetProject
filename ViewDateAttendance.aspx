@@ -1,5 +1,9 @@
 ﻿
-<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Global.Master" AutoEventWireup="true" CodeBehind="AddMemberPackage.aspx.cs" Inherits="WebApplication10.AddMemberPackage" %>
+
+
+
+
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Global.Master" AutoEventWireup="true" CodeBehind="ViewDateAttendance.aspx.cs" Inherits="WebApplication10.ViewDateAttendance" %>
 
 <%@ Register Src="UserControls/Shared/MessageBox.ascx" TagName="MessageBox" TagPrefix="uc1" %>
 
@@ -13,16 +17,16 @@
 
     <section class="panel">
         <header class="panel-heading">
-            Add Member Package
+            View Date Attendance
         </header>
 
         <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="selectPackageType" class="control-label col-sm-3">Select Package Type</label>
+                        <label for="selectMember" class="control-label col-sm-3">Select Member</label>
 
                         <div class="col-sm-9">
-                            <asp:DropDownList ID="selectPackageType" CssClass="form-control" runat="server">
+                            <asp:DropDownList ID="selectMember" CssClass="form-control" runat="server">
                                 
                             </asp:DropDownList>
                         </div>
@@ -32,42 +36,52 @@
                 </div>
             <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="remarks" class="control-label col-sm-3">Remarks</label>
+                        <label for="datepicker" class="control-label col-sm-3">Select Date</label>
 
                         <div class="col-sm-9">
-                            <asp:TextBox ID="remarks" runat="server" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="datepicker" runat="server" CssClass="form-control date-picker"></asp:TextBox>
+
+                                
+                            
                         </div>
-                
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+            
             </div>
-        </div>
-    </div>
         <div class="row">
                 <div class="col-lg-12">
                     <div class="form-group">
                         <div class="text-center">
-                            <a href="" class="btn btn-info">Back</a>
-                            <asp:Button ID="btnSave" runat="server" Text="Add Package"
-                                CssClass="btn btn-success" OnClick="btnSave_Click" ></asp:Button>
+                           <asp:Button ID="Button1" runat="server" Text="Search"
+                                CssClass="btn btn-success" ></asp:Button>
                         </div>
                         <div style="clear: both;"></div>
                     </div>
                 </div>
             </div>
-        <hr />
-                    <section class="panel">
+        <script>
+     $(function () {
+         window.prettyPrint && prettyPrint();
+         $('.date-picker').datepicker({
+
+             format: 'yyyy-mm-dd'
+         });
+     });
+
+        </script> 
+        </section>
+    <section class="panel">
                 <table class="table table-hover">
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th>Package Name</th>
-                            <th>Fees</th>
-                            <th>Starting Date</th>
-                             <th>Ending Date</th>
-                            <th>Duration</th>
+                            <th>Member Name</th>
+                            <th>Date</th>
+                            <th>Status</th>
                             
-                            <th>Remarks</th>
                             <th>Actions</th>
-                            
                         </tr>
                     </thead>
                     <tbody>
@@ -75,33 +89,30 @@
                             <ItemTemplate>
                                 <tr>
                                     <td><%# Container.ItemIndex + 1 %></td>
-                                    <td><%# Eval("packageName")%></td>
+                                    <td><%# Eval("memberName")%></td>
                                     
-                                    <td><%# Eval("fees")%></td>
-                                    <td><%# Eval("startingDate")%></td>
-                                     <td><%# Eval("endingDate")%></td>
+                                    <td><%# Eval("date")%></td>
+                                    <td><%# Eval("status")%></td>
                                     
-                                    <td><%# Eval("duration")%></td>
-                                    <td><%# Eval("remarks")%></td>
-                                  <td>
-                                      <asp:LinkButton ID="ENameLinkBtn" CssClass="btn btn-danger btn-xs" runat="server" Text="Delete" CommandArgument='<%#Eval("Id")%>' ></asp:LinkButton>
+                                    <td>
+                                        
+                                         <a class="btn btn-primary btn-xs" href='Edit.aspx?ID=<%#Eval("EncryptedId")%>'><i class="fa fa-edit"></i>Edit</a>
                                         <br />
-                                  </td>
+                                        <asp:LinkButton ID="ENameLinkBtn" CssClass="btn btn-danger btn-xs" runat="server" Text="Delete" CommandArgument='<%#Eval("Id")%>' ></asp:LinkButton>
+                                    </td>
                                 </tr>
                             </ItemTemplate>
                         </asp:Repeater>
                     </tbody>
                 </table>
-                         <table class='table <%= Repeater1.Items.Count > 0 ? "hide" : "show" %>'>
+                 <table class='table <%= Repeater1.Items.Count > 0 ? "hide" : "show" %>'>
                     <tr>
-                        <td>No Member Package ound</td>
+                        <td>Attendance Not Found</td>
                     </tr>
                 </table>
             </section>
 
-    </section>
-
-   
-</asp:Content>
+    </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ScriptsPlaceHolder" runat="server">
 </asp:Content>
+

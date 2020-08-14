@@ -31,7 +31,7 @@
                       </a>
                   </li>
                    <li>
-                      <a href="../AllBooks.aspx">
+                      <a href="../ViewAllMembers.aspx">
                           <i class="fa fa-users"></i>
                           <span>All Members</span>
                       </a>

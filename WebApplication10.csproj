@@ -359,7 +359,8 @@
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
     <Content Include="SignUp.aspx" />
-    <Content Include="ViewAllAttendance.aspx" />
+    <Content Include="ViewMonthlyAttendance.aspx" />
+    <Content Include="ViewDateAttendance.aspx" />
     <Content Include="ViewAllFeesRecord.aspx" />
     <Content Include="ViewAllMembers.aspx" />
     <Content Include="ViewAllPackages.aspx" />
@@ -838,12 +839,19 @@
     <Compile Include="Utility\DataValidation.cs" />
     <Compile Include="Utility\Helper.cs" />
     <Compile Include="Utility\Resource.Designer.cs" />
-    <Compile Include="ViewAllAttendance.aspx.cs">
-      <DependentUpon>ViewAllAttendance.aspx</DependentUpon>
+    <Compile Include="ViewMonthlyAttendance.aspx.cs">
+      <DependentUpon>ViewMonthlyAttendance.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ViewAllAttendance.aspx.designer.cs">
-      <DependentUpon>ViewAllAttendance.aspx</DependentUpon>
+    <Compile Include="ViewMonthlyAttendance.aspx.designer.cs">
+      <DependentUpon>ViewMonthlyAttendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDateAttendance.aspx.cs">
+      <DependentUpon>ViewDateAttendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewDateAttendance.aspx.designer.cs">
+      <DependentUpon>ViewDateAttendance.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewAllFeesRecord.aspx.cs">
       <DependentUpon>ViewAllFeesRecord.aspx</DependentUpon>
@@ -895,6 +903,7 @@
     <Folder Include="aspnet_client\system_web\4_0_30319\" />
     <Folder Include="assets\free3of9\" />
     <Folder Include="img\NewFolder1\" />
+    <Folder Include="PackageImages\" />
     <Folder Include="QRCODES\" />
     <Folder Include="service\" />
   </ItemGroup>
